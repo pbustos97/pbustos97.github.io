@@ -4,4 +4,6 @@ a:hover{
 
 div.about{
 	text-align: center;
+	position: fixed;
+	bottom: 0px;
 }
