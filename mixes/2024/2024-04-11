@@ -1,0 +1,3446 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<style type="text/css">
+<!--
+body { margin: 10px; }
+body, th, td, p, div, li {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+}
+h1 {
+font-size: 18px;
+font-weight: bold;
+}
+table.border {
+border: 1px solid #666666;
+border-collapse: collapse;
+}
+th {
+font-weight: bold;
+vertical-align: top;
+padding: 5px;
+text-align: left;
+background: #990000;
+border-right: 1px solid #FFFFFF;
+color: #FFFFFF;
+}
+td {
+vertical-align: top;
+padding: 5px;
+text-align: left;
+border-top: 1px solid #666666;
+border-right: 1px solid #666666;
+}
+td.key {
+background: #CCCCCC;
+font-weight: bold;
+}
+-->
+</style>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<html>
+
+  <head>
+    <title>Track List 2024-04-11</title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+  </head>
+
+  <body bgcolor="#ffffff">
+    <h1>Track List: 2024-04-11</h1>
+    <table cellpadding="0" cellspacing="0" class="border" width="100px">
+      <tr>
+        <th>Num.</th>
+        <th>Color</th>
+        <th>Title</th>
+        <th>Artist</th>
+        <th>Time</th>
+        <th>BPM</th>
+        <th>Track</th>
+        <th>Release</th>
+        <th>Label</th>
+        <th>Genre</th>
+        <th>Key Text</th>
+        <th>Key</th>
+        <th>Comment</th>
+        <th>Lyrics</th>
+        <th>Rating</th>
+        <th>File Path</th>
+        <th>File Name</th>
+        <th>Analyzed (Peak, Perceived)</th>
+        <th>Remixer</th>
+        <th>Producer</th>
+        <th>Release Date</th>
+        <th>Bitrate</th>
+        <th>Comment2</th>
+        <th>Play Count</th>
+        <th>Last Played</th>
+        <th>Import Date</th>
+        <th>Start Time</th>
+        <th>Duration</th>
+        <th>Deck</th>
+        <th>Played Public</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>None</td>
+        <td>beggin' u 2</td>
+        <td>camoufly</td>
+        <td>03:53</td>
+        <td>132.000</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Bass House</td>
+        <td></td>
+        <td>12m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Camoufly\camoufly_-_beggin_u_2.mp3</td>
+        <td>camoufly_-_beggin_u_2.mp3</td>
+        <td>Stripe, Transients, Gain (-2.6 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>320000</td>
+        <td></td>
+        <td>1</td>
+        <td>2024/04/11</td>
+        <td>2024/04/11</td>
+        <td>2024/4/11 18:48:23</td>
+        <td>01:27</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>None</td>
+        <td>Enough (if found Flip)</td>
+        <td>Cardi B, if found</td>
+        <td>02:00</td>
+        <td>145.000</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Trap / Wave</td>
+        <td></td>
+        <td>12m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\if found\Remixes\Cardi B - Enough (if found Flip).wav</td>
+        <td>Cardi B - Enough (if found Flip).wav</td>
+        <td>Stripe, Transients, Gain (-5.4 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>1411200</td>
+        <td></td>
+        <td>1</td>
+        <td>2024/04/11</td>
+        <td>2024/04/11</td>
+        <td>2024/4/11 18:49:08</td>
+        <td>00:49</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>None</td>
+        <td>Creepin' [Explicit]</td>
+        <td>Metro Boomin &amp; The Weeknd &amp; 21 Savage</td>
+        <td>03:42</td>
+        <td>98.000</td>
+        <td>10</td>
+        <td>HEROES &amp; VILLAINS [Explicit]</td>
+        <td></td>
+        <td>Rap &amp; Hip-Hop</td>
+        <td></td>
+        <td>5m</td>
+        <td>Amazon.com Song ID: 200000485206684</td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Metro Boomin\HEROES &amp; VILLAINS [Explicit]\10 - Creepin' [Explicit].mp3</td>
+        <td>10 - Creepin' [Explicit].mp3</td>
+        <td>Stripe, Transients, Gain (-1.6 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2022/01/01</td>
+        <td>255105</td>
+        <td></td>
+        <td>1</td>
+        <td>2024/04/11</td>
+        <td>2023/03/10</td>
+        <td>2024/4/11 18:54:39</td>
+        <td>04:45</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>None</td>
+        <td>Don't - Bryson Tiller (f r a n c h i s e. Master Edit)</td>
+        <td>f r a n c h i s e.</td>
+        <td>03:24</td>
+        <td>98.000</td>
+        <td></td>
+        <td>Remixes &amp; Edits Vol. I, II, III</td>
+        <td></td>
+        <td>Reggaeton</td>
+        <td></td>
+        <td>3m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\f r a n c h i s e\REMIXES &amp; EDITS VOL. I II III\Don't - Bryson Tiller (f r a n c h i s e. Master Edit).wav</td>
+        <td>Don't - Bryson Tiller (f r a n c h i s e. Master Edit).wav</td>
+        <td>Stripe, Transients, Gain (+0.3 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>1411200</td>
+        <td></td>
+        <td>3</td>
+        <td>2024/04/11</td>
+        <td>2017/12/18</td>
+        <td>2024/4/11 19:07:27</td>
+        <td>02:27</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>None</td>
+        <td>Get It On Tonite (f r a n c h i s e. x Brii Edit)</td>
+        <td>f r a n c h i s e.</td>
+        <td>03:41</td>
+        <td>101.001</td>
+        <td></td>
+        <td>Remixes &amp; Edits Vol. V</td>
+        <td></td>
+        <td>Reggaeton</td>
+        <td></td>
+        <td>4m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\f r a n c h i s e\REMIXES &amp; EDITS VOL V\Franchise - Remixes &amp; Edits Vol. V - 02 Get It On Tonite (f r a n c h i s e. x Brii Edit).wav</td>
+        <td>Franchise - Remixes &amp; Edits Vol. V - 02 Get It On Tonite (f r a n c h i s e. x Brii Edit).wav</td>
+        <td>Stripe, Transients, Gain (-0.4 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>1411200</td>
+        <td></td>
+        <td>1</td>
+        <td>2024/04/11</td>
+        <td>2023/06/09</td>
+        <td>2024/4/11 19:09:41</td>
+        <td>03:26</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>None</td>
+        <td>BerwynGesaffNeighbours (Original Mix)</td>
+        <td>Gesaffelstein, Fred again.., Berwyn</td>
+        <td>02:04</td>
+        <td>102.000</td>
+        <td>2</td>
+        <td>USB</td>
+        <td>Atlantic Records UK</td>
+        <td>Midtempo</td>
+        <td>Dmin</td>
+        <td>12m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Fred Again\USB\Gesaffelstein,_Fred_again..,_Berwyn_18907854_BerwynGesaffNeighbours_(Original_Mix).mp3</td>
+        <td>Gesaffelstein,_Fred_again..,_Berwyn_18907854_BerwynGesaffNeighbours_(Original_Mix).mp3</td>
+        <td>Stripe, Transients, Gain (-1.1 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2024/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>2</td>
+        <td>2024/04/11</td>
+        <td>2024/04/09</td>
+        <td>2024/4/11 19:12:52</td>
+        <td>03:31</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>None</td>
+        <td>Terrified (Zikomo Remix)</td>
+        <td>Childish Gambino</td>
+        <td>03:27</td>
+        <td>107.577</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Afrobeat</td>
+        <td></td>
+        <td>11m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Zikomo\Remixes\Zikomo - Childish Gambino - Terrified (Zikomo remix).wav</td>
+        <td>Zikomo - Childish Gambino - Terrified (Zikomo remix).wav</td>
+        <td>Stripe, Transients, Gain (+0.9 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>1411200</td>
+        <td></td>
+        <td>7</td>
+        <td>2024/04/11</td>
+        <td>2023/09/23</td>
+        <td>2024/4/11 19:16:19</td>
+        <td>02:43</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>None</td>
+        <td>Bodak Yellow - Cardi B (f r a n c h i s e. Master Edit)</td>
+        <td>f r a n c h i s e.</td>
+        <td>04:32</td>
+        <td>108.000</td>
+        <td></td>
+        <td>Remixes &amp; Edits Vol. I, II, III</td>
+        <td></td>
+        <td>Dance / Electro Pop</td>
+        <td></td>
+        <td>12m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\f r a n c h i s e\REMIXES &amp; EDITS VOL. I II III\Bodak Yellow - Cardi B (f r a n c h i s e. Master Edit).wav</td>
+        <td>Bodak Yellow - Cardi B (f r a n c h i s e. Master Edit).wav</td>
+        <td>Stripe, Transients, Gain (+0.1 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>1411200</td>
+        <td></td>
+        <td>1</td>
+        <td>2024/04/11</td>
+        <td>2017/12/16</td>
+        <td>2024/4/11 19:17:56</td>
+        <td>02:37</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>None</td>
+        <td>Dilemma (Ale Rossi VIP Amapiano Remix)</td>
+        <td>Nelly</td>
+        <td>03:37</td>
+        <td>108.000</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Amapiano</td>
+        <td></td>
+        <td>12m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Ale Rossi\Remixes\Nelly - Dilemma (Ale Rossi VIP Amapiano Remix).mp3</td>
+        <td>Nelly - Dilemma (Ale Rossi VIP Amapiano Remix).mp3</td>
+        <td>Stripe, Transients, Gain (-1.2 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>320000</td>
+        <td></td>
+        <td>2</td>
+        <td>2024/04/11</td>
+        <td>2024/04/09</td>
+        <td>2024/4/11 19:19:51</td>
+        <td>03:25</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>None</td>
+        <td>Humble x Alright - Kendrick Lamar (f r a n c h i s e. Master Edit)</td>
+        <td>f r a n c h i s e.</td>
+        <td>03:24</td>
+        <td>110.000</td>
+        <td></td>
+        <td>Remixes &amp; Edits Vol. I, II, III</td>
+        <td></td>
+        <td>Dance / Electro Pop</td>
+        <td></td>
+        <td>11m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\f r a n c h i s e\REMIXES &amp; EDITS VOL. I II III\Humble x Alright - (f r a n c h i s e. Master Edit).wav</td>
+        <td>Humble x Alright - (f r a n c h i s e. Master Edit).wav</td>
+        <td>Stripe, Transients, Gain (-0.0 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>1411200</td>
+        <td></td>
+        <td>1</td>
+        <td>2024/04/11</td>
+        <td>2017/12/10</td>
+        <td>2024/4/11 19:21:23</td>
+        <td>03:55</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>11</td>
+        <td>None</td>
+        <td>Raindrops (Insane) [Explicit]</td>
+        <td>Metro Boomin &amp; Travis Scott</td>
+        <td>03:09</td>
+        <td>111.999</td>
+        <td>4</td>
+        <td>HEROES &amp; VILLAINS [Explicit]</td>
+        <td></td>
+        <td>Rap &amp; Hip-Hop</td>
+        <td></td>
+        <td>11m</td>
+        <td>Amazon.com Song ID: 200000485206682</td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Metro Boomin\HEROES &amp; VILLAINS [Explicit]\04 - Raindrops (Insane) [Explicit].mp3</td>
+        <td>04 - Raindrops (Insane) [Explicit].mp3</td>
+        <td>Stripe, Transients, Gain (-0.6 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2022/01/01</td>
+        <td>262123</td>
+        <td></td>
+        <td>2</td>
+        <td>2024/04/11</td>
+        <td>2023/03/10</td>
+        <td>2024/4/11 19:24:21</td>
+        <td>03:14</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>12</td>
+        <td>None</td>
+        <td>WATER. (Original Mix)</td>
+        <td>Bryce Vine, Snakehips</td>
+        <td>02:47</td>
+        <td>118.000</td>
+        <td>6</td>
+        <td>never worry</td>
+        <td>Helix Records</td>
+        <td>House</td>
+        <td>Dmaj</td>
+        <td>12m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Snakehips\never worry\17681654_WATER._(Original_Mix).mp3</td>
+        <td>17681654_WATER._(Original_Mix).mp3</td>
+        <td>Stripe, Transients, Gain (-1.1 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2023/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>8</td>
+        <td>2024/04/11</td>
+        <td>2023/05/05</td>
+        <td>2024/4/11 19:27:27</td>
+        <td>02:52</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>13</td>
+        <td>None</td>
+        <td>Let It Go [Explicit]</td>
+        <td>A$AP Ferg</td>
+        <td>04:43</td>
+        <td>120.001</td>
+        <td>1</td>
+        <td>Trap Lord [Explicit]</td>
+        <td></td>
+        <td>Rap &amp; Hip-Hop</td>
+        <td></td>
+        <td>1m</td>
+        <td>Amazon.com Song ID: 240238123</td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\A$AP Ferg\Trap Lord [Explicit]\01 - Let It Go [Explicit].mp3</td>
+        <td>01 - Let It Go [Explicit].mp3</td>
+        <td>Stripe, Transients, Gain (-0.6 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2013/01/01</td>
+        <td>270466</td>
+        <td></td>
+        <td>2</td>
+        <td>2024/04/11</td>
+        <td>2023/03/10</td>
+        <td>2024/4/11 19:29:33</td>
+        <td>02:39</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>14</td>
+        <td>None</td>
+        <td>Shabba [Explicit]</td>
+        <td>A$AP Ferg feat. A$AP Rocky</td>
+        <td>04:36</td>
+        <td>120.001</td>
+        <td>2</td>
+        <td>Trap Lord [Explicit]</td>
+        <td></td>
+        <td>Rap &amp; Hip-Hop</td>
+        <td></td>
+        <td>12m</td>
+        <td>Amazon.com Song ID: 240238122</td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\A$AP Ferg\Trap Lord [Explicit]\02 - Shabba [Explicit].mp3</td>
+        <td>02 - Shabba [Explicit].mp3</td>
+        <td>Stripe, Transients, Gain (-0.7 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2013/01/01</td>
+        <td>286166</td>
+        <td></td>
+        <td>2</td>
+        <td>2024/04/11</td>
+        <td>2023/03/10</td>
+        <td>2024/4/11 19:31:40</td>
+        <td>02:31</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>15</td>
+        <td>None</td>
+        <td>Around Me [Explicit] [feat. Don Toliver]</td>
+        <td>Metro Boomin &amp; Don Toliver</td>
+        <td>03:12</td>
+        <td>120.000</td>
+        <td>7</td>
+        <td>HEROES &amp; VILLAINS [Explicit]</td>
+        <td></td>
+        <td>Rap &amp; Hip-Hop</td>
+        <td></td>
+        <td>12m</td>
+        <td>Amazon.com Song ID: 200000485206687</td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Metro Boomin\HEROES &amp; VILLAINS [Explicit]\07 - Around Me [feat. Don Toliver] [Explicit].mp3</td>
+        <td>07 - Around Me [feat. Don Toliver] [Explicit].mp3</td>
+        <td>Stripe, Transients, Gain (-2.5 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2022/01/01</td>
+        <td>266668</td>
+        <td></td>
+        <td>6</td>
+        <td>2024/04/11</td>
+        <td>2023/03/10</td>
+        <td>2024/4/11 19:33:57</td>
+        <td>02:59</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>16</td>
+        <td>None</td>
+        <td>Mwaki (Extended Mix)</td>
+        <td>Zerb, Sofiya Nzau</td>
+        <td>04:33</td>
+        <td>120.000</td>
+        <td>1</td>
+        <td>Mwaki - Extended Mix</td>
+        <td>TH3RD BRAIN</td>
+        <td>Afro House</td>
+        <td>Gmin</td>
+        <td>11m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Zerb\Singles\Zerb,_Sofiya_Nzau_18362539_Mwaki_(Extended_Mix).mp3</td>
+        <td>Zerb,_Sofiya_Nzau_18362539_Mwaki_(Extended_Mix).mp3</td>
+        <td>Stripe, Transients, Gain (+0.7 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2023/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>2</td>
+        <td>2024/04/11</td>
+        <td>2024/04/09</td>
+        <td>2024/4/11 19:36:25</td>
+        <td>01:56</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>17</td>
+        <td>None</td>
+        <td>Marianela (Extended Mix)</td>
+        <td>Merk &amp; Kremont, Hugel, Lirico En La Casa</td>
+        <td>04:08</td>
+        <td>124.000</td>
+        <td>1</td>
+        <td>Marianela (Extended Mix)</td>
+        <td>Cr2 Records</td>
+        <td>Tech House</td>
+        <td>Cmaj</td>
+        <td>10m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Hugel\Singles\Merk_&amp;_Kremont,_Hugel,_Lirico_En_La_Casa_17065319_Marianela_(Que_Pasa)_(Extended_Mix).mp3</td>
+        <td>Merk_&amp;_Kremont,_Hugel,_Lirico_En_La_Casa_17065319_Marianela_(Que_Pasa)_(Extended_Mix).mp3</td>
+        <td>Stripe, Transients, Gain (-3.2 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2022/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>2</td>
+        <td>2024/04/11</td>
+        <td>2024/04/09</td>
+        <td>2024/4/11 19:37:56</td>
+        <td>02:49</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>18</td>
+        <td>None</td>
+        <td>Drugs From Amsterdam (Original Mix)</td>
+        <td>Mau P</td>
+        <td>05:27</td>
+        <td>125.000</td>
+        <td>1</td>
+        <td>Drugs From Amsterdam</td>
+        <td>Repopulate Mars</td>
+        <td>Tech House</td>
+        <td>Ebmaj</td>
+        <td>7m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Mau P\Singles\16771427_Drugs_From_Amsterdam_(Original_Mix).mp3</td>
+        <td>16771427_Drugs_From_Amsterdam_(Original_Mix).mp3</td>
+        <td>Stripe, Transients, Gain (+0.8 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2022/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>5</td>
+        <td>2024/04/11</td>
+        <td>2023/01/18</td>
+        <td>2024/4/11 19:40:05</td>
+        <td>02:41</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>19</td>
+        <td>None</td>
+        <td>Baianá (Aurelios Remix)</td>
+        <td>Barbatuques</td>
+        <td>02:59</td>
+        <td>125.000</td>
+        <td></td>
+        <td>Aurelios Instagram Reels Pack Vol.3</td>
+        <td></td>
+        <td>Tech House</td>
+        <td></td>
+        <td>12m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Aurelios\Aurelios Instagram Reels Pack Vol.3\Barbatuques - Baianá (Aurelios Remix).mp3</td>
+        <td>Barbatuques - Baianá (Aurelios Remix).mp3</td>
+        <td>Stripe, Transients, Gain (-2.7 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2023/01/01</td>
+        <td>319971</td>
+        <td></td>
+        <td>1</td>
+        <td>2024/04/11</td>
+        <td>2023/12/09</td>
+        <td>2024/4/11 19:41:57</td>
+        <td>02:50</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>20</td>
+        <td>None</td>
+        <td>ItsNotREEAALLLLLLLL (Original Mix)</td>
+        <td>Duoteque, Fred again.., Orion Sun</td>
+        <td>05:27</td>
+        <td>125.000</td>
+        <td>1</td>
+        <td>USB</td>
+        <td>Atlantic Records UK</td>
+        <td>Techno</td>
+        <td>Dmaj</td>
+        <td>12m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Fred Again\USB\Duoteque,_Fred_again..,_Orion_Sun_18907853_ItsNotREEAALLLLLLLL_(Original_Mix).mp3</td>
+        <td>Duoteque,_Fred_again..,_Orion_Sun_18907853_ItsNotREEAALLLLLLLL_(Original_Mix).mp3</td>
+        <td>Stripe, Transients, Gain (+1.0 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2024/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>1</td>
+        <td>2024/04/11</td>
+        <td>2024/04/09</td>
+        <td>2024/4/11 19:43:48</td>
+        <td>02:04</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>21</td>
+        <td>None</td>
+        <td>Yakuza 0 OST - 79 Friday Night_3x</td>
+        <td></td>
+        <td>03:35</td>
+        <td>125.798</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>8d</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Yakuza\Yakuza 0 OST - 79 Friday Night_3x.mp3</td>
+        <td>Yakuza 0 OST - 79 Friday Night_3x.mp3</td>
+        <td>Stripe, Transients, Gain (-0.2 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2019/01/01</td>
+        <td>192000</td>
+        <td></td>
+        <td>2</td>
+        <td>2024/04/11</td>
+        <td>2023/03/03</td>
+        <td>2024/4/11 19:45:51</td>
+        <td>02:35</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>22</td>
+        <td>None</td>
+        <td>Assumptions (Original Mix)</td>
+        <td>Sam Gellaitry</td>
+        <td>03:41</td>
+        <td>126.000</td>
+        <td>4</td>
+        <td>IV</td>
+        <td>FFRR</td>
+        <td>Pop</td>
+        <td>Ebmaj</td>
+        <td>7d</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Sam Gellaitry\IV\15270867_Assumptions_(Original_Mix).mp3</td>
+        <td>15270867_Assumptions_(Original_Mix).mp3</td>
+        <td>Stripe, Transients, Gain (-1.5 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2021/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>4</td>
+        <td>2024/04/11</td>
+        <td>2023/01/18</td>
+        <td>2024/4/11 19:47:42</td>
+        <td>03:11</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>23</td>
+        <td>None</td>
+        <td>Selecta (Original Mix)</td>
+        <td>Beam, Skrillex</td>
+        <td>03:11</td>
+        <td>126.000</td>
+        <td>3</td>
+        <td>Don't Get Too Close</td>
+        <td>OWSLA/Atlantic</td>
+        <td>Bass House</td>
+        <td>Ebmin</td>
+        <td>7m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Skrillex\Don't Get Too Close\17432196_Selecta_(Original_Mix).mp3</td>
+        <td>17432196_Selecta_(Original_Mix).mp3</td>
+        <td>Stripe, Transients, Gain (-2.0 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2023/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>3</td>
+        <td>2024/04/11</td>
+        <td>2023/02/19</td>
+        <td>2024/4/11 19:50:08</td>
+        <td>01:44</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>24</td>
+        <td>None</td>
+        <td>inhuman (fairy fountain VIP)</td>
+        <td>ISOxo</td>
+        <td>03:38</td>
+        <td>125.999</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Bass House</td>
+        <td></td>
+        <td>7m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Isoxo\Singles\ISOxo - inhuman (fairy fountain VIP).wav</td>
+        <td>ISOxo - inhuman (fairy fountain VIP).wav</td>
+        <td>Stripe, Transients, Gain (-2.6 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>2116800</td>
+        <td></td>
+        <td>2</td>
+        <td>2024/04/11</td>
+        <td>2023/05/05</td>
+        <td>2024/4/11 19:51:40</td>
+        <td>01:23</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>25</td>
+        <td>None</td>
+        <td>Certified</td>
+        <td>Dr. Fresch</td>
+        <td>02:56</td>
+        <td>126.001</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>House</td>
+        <td>7m</td>
+        <td>7m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Dr Fresch\Singles\Dr. Fresch - Certified.mp3</td>
+        <td>Dr. Fresch - Certified.mp3</td>
+        <td>Stripe, Transients, Gain (-2.3 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>320000</td>
+        <td></td>
+        <td>5</td>
+        <td>2024/04/11</td>
+        <td>2023/08/24</td>
+        <td>2024/4/11 19:52:36</td>
+        <td>01:12</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>26</td>
+        <td>None</td>
+        <td>BEATS FOR THE UNDERGROUND (Original Mix)</td>
+        <td>Mau P</td>
+        <td>06:10</td>
+        <td>126.000</td>
+        <td>1</td>
+        <td>BEATS FOR THE UNDERGROUND</td>
+        <td>Repopulate Mars</td>
+        <td>Tech House</td>
+        <td>Bbmin</td>
+        <td>7m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Mau P\Singles\Mau_P_18466199_BEATS_FOR_THE_UNDERGROUND_(Original_Mix).mp3</td>
+        <td>Mau_P_18466199_BEATS_FOR_THE_UNDERGROUND_(Original_Mix).mp3</td>
+        <td>Stripe, Transients, Gain (-2.8 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2024/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>1</td>
+        <td>2024/04/11</td>
+        <td>2024/04/09</td>
+        <td>2024/4/11 19:53:34</td>
+        <td>01:27</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>27</td>
+        <td>None</td>
+        <td>Take It Off (feat. AATIG) (Extended Mix)</td>
+        <td>FISHER (OZ), Aatig</td>
+        <td>05:27</td>
+        <td>127.000</td>
+        <td>1</td>
+        <td>Take It Off (feat. AATIG)</td>
+        <td>Catch &amp; Release</td>
+        <td>House</td>
+        <td>Ebmin</td>
+        <td>7m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Fisher\Singles\17716164_Take_It_Off_(Extended_Mix).mp3</td>
+        <td>17716164_Take_It_Off_(Extended_Mix).mp3</td>
+        <td>Stripe, Transients, Gain (-0.2 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2023/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>8</td>
+        <td>2024/04/11</td>
+        <td>2023/06/09</td>
+        <td>2024/4/11 19:54:33</td>
+        <td>01:26</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>28</td>
+        <td>None</td>
+        <td>Fly With Us (Original Mix)</td>
+        <td>AC Slater, Chris Lorenzo</td>
+        <td>04:55</td>
+        <td>128.000</td>
+        <td>1</td>
+        <td>Best of 2021</td>
+        <td>Night Bass Records</td>
+        <td>Bass House</td>
+        <td>Fmin</td>
+        <td>8m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Night Bass\Best of 2021\15936456_Fly_With_Us_(Original_Mix).mp3</td>
+        <td>15936456_Fly_With_Us_(Original_Mix).mp3</td>
+        <td>Stripe, Transients, Gain (-4.6 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2021/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>2</td>
+        <td>2024/04/11</td>
+        <td>2023/01/18</td>
+        <td>2024/4/11 19:55:45</td>
+        <td>01:26</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>29</td>
+        <td>None</td>
+        <td>Animals (Moore Kismet Reboot)</td>
+        <td>Martin Garrix</td>
+        <td>04:34</td>
+        <td>127.999</td>
+        <td>4</td>
+        <td></td>
+        <td></td>
+        <td>Trap</td>
+        <td></td>
+        <td>9m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Moore Kismet\unicorn magic vol. 1\Martin Garrix - Animals (Moore Kismet Reboot).mp3</td>
+        <td>Martin Garrix - Animals (Moore Kismet Reboot).mp3</td>
+        <td>Stripe, Transients, Gain (-5.9 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2022/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>2</td>
+        <td>2024/04/11</td>
+        <td>2023/03/03</td>
+        <td>2024/4/11 19:56:57</td>
+        <td>01:55</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>30</td>
+        <td>None</td>
+        <td>Cinderella (Asunder x Tom Apex Flip)</td>
+        <td>Don Toliver</td>
+        <td>03:05</td>
+        <td>127.999</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Bass House</td>
+        <td></td>
+        <td>9m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Asunder\Remixes\DON TOLIVER - CINDERELLA (FEAT. TORO Y MOI) [ASUNDER X TOM APEX FLIP].mp3</td>
+        <td>DON TOLIVER - CINDERELLA (FEAT. TORO Y MOI) [ASUNDER X TOM APEX FLIP].mp3</td>
+        <td>Stripe, Transients, Gain (-2.7 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>272047</td>
+        <td></td>
+        <td>3</td>
+        <td>2024/04/11</td>
+        <td>2023/12/09</td>
+        <td>2024/4/11 19:58:23</td>
+        <td>01:53</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>31</td>
+        <td>None</td>
+        <td>Bitch, Don't Kill My Vibe (Extended Mix)</td>
+        <td>Trace, Liquid Rose</td>
+        <td>06:03</td>
+        <td>128.000</td>
+        <td>2</td>
+        <td>Bitch, Don't Kill My Vibe</td>
+        <td>Nervous Records</td>
+        <td>Tech House</td>
+        <td>Fmin</td>
+        <td>9m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Liquid Rose\Remixes\Liquid_Rose,_Trace_(UZ)_18475199_Bitch,_Don_t_Kill_My_Vibe_(Extended_Mix).mp3</td>
+        <td>Liquid_Rose,_Trace_(UZ)_18475199_Bitch,_Don_t_Kill_My_Vibe_(Extended_Mix).mp3</td>
+        <td>Stripe, Transients, Gain (-0.8 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2024/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>2</td>
+        <td>2024/04/11</td>
+        <td>2024/04/09</td>
+        <td>2024/4/11 19:59:36</td>
+        <td>02:45</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>32</td>
+        <td>None</td>
+        <td>6locc 6a6y (C-Notes Edit)</td>
+        <td>Lil Loaded</td>
+        <td>04:14</td>
+        <td>129.000</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>House</td>
+        <td></td>
+        <td>10m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Lil Loaded\Remixes\Lil Loaded - 6locc 6a6y (C-Notes edit).wav</td>
+        <td>Lil Loaded - 6locc 6a6y (C-Notes edit).wav</td>
+        <td>Stripe, Transients, Gain (+0.0 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>1411200</td>
+        <td></td>
+        <td>6</td>
+        <td>2024/04/11</td>
+        <td>2023/06/26</td>
+        <td>2024/4/11 20:01:12</td>
+        <td>02:50</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>33</td>
+        <td>None</td>
+        <td>Revolution (Extended Mix)</td>
+        <td>John Summit</td>
+        <td>05:29</td>
+        <td>130.000</td>
+        <td>1</td>
+        <td>Revolution - Extended Mix</td>
+        <td>Off The Grid</td>
+        <td>Techno</td>
+        <td>Fmaj</td>
+        <td>9m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\John Summit\Singles\17219670_Revolution_(Extended_Mix).mp3</td>
+        <td>17219670_Revolution_(Extended_Mix).mp3</td>
+        <td>Stripe, Transients, Gain (-0.9 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2022/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>4</td>
+        <td>2024/04/11</td>
+        <td>2023/01/18</td>
+        <td>2024/4/11 20:03:21</td>
+        <td>02:49</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>34</td>
+        <td>None</td>
+        <td>One More Chance (Original Mix)</td>
+        <td>Sammy Virji</td>
+        <td>05:15</td>
+        <td>130.000</td>
+        <td>4</td>
+        <td>We'll Be Alright</td>
+        <td>Sammy Virji</td>
+        <td>Garage</td>
+        <td>Fmin</td>
+        <td>9m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Sammy Virji\We'll Be Alright\15288973_One_More_Chance_(Original_Mix).mp3</td>
+        <td>15288973_One_More_Chance_(Original_Mix).mp3</td>
+        <td>Stripe, Transients, Gain (+0.5 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2021/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>2</td>
+        <td>2024/04/11</td>
+        <td>2023/03/03</td>
+        <td>2024/4/11 20:05:19</td>
+        <td>01:58</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>35</td>
+        <td>None</td>
+        <td>Work REMIX [Explicit]</td>
+        <td>A$AP Ferg feat. A$AP Rocky, French Montana, Trinidad James &amp; ScHoolboy Q</td>
+        <td>04:44</td>
+        <td>130.001</td>
+        <td>8</td>
+        <td>Trap Lord [Explicit]</td>
+        <td></td>
+        <td>Rap &amp; Hip-Hop</td>
+        <td></td>
+        <td>11d</td>
+        <td>Amazon.com Song ID: 240238115</td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\A$AP Ferg\Trap Lord [Explicit]\08 - Work REMIX [Explicit].mp3</td>
+        <td>08 - Work REMIX [Explicit].mp3</td>
+        <td>Stripe, Transients, Gain (-1.0 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2013/01/01</td>
+        <td>280817</td>
+        <td></td>
+        <td>2</td>
+        <td>2024/04/11</td>
+        <td>2023/03/10</td>
+        <td>2024/4/11 20:07:03</td>
+        <td>02:51</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>36</td>
+        <td>None</td>
+        <td>Charge (ISOxo Edit)</td>
+        <td>Boombox Cartel, Kaaris, Mr Carmack</td>
+        <td>03:20</td>
+        <td>129.999</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Trap / Wave</td>
+        <td></td>
+        <td>7m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Isoxo\Edits\Charge ISOxo Edit - Boombox Cartel, Kaaris &amp; Mr Carmack (final) 16bit.wav</td>
+        <td>Charge ISOxo Edit - Boombox Cartel, Kaaris &amp; Mr Carmack (final) 16bit.wav</td>
+        <td>Stripe, Transients, Gain (-5.3 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>1411200</td>
+        <td></td>
+        <td>6</td>
+        <td>2024/04/11</td>
+        <td>2023/05/05</td>
+        <td>2024/4/11 20:07:56</td>
+        <td>03:38</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>37</td>
+        <td>None</td>
+        <td>Moon Love (Original Mix)</td>
+        <td>Boombox Cartel, nessly</td>
+        <td>04:04</td>
+        <td>130.000</td>
+        <td>1</td>
+        <td>Moon Love</td>
+        <td>Mad Decent</td>
+        <td>Trap / Hip-Hop / R&amp;B</td>
+        <td>Ebmin</td>
+        <td>7m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Boombox Cartel\Singles\10364476_Moon_Love_(Original_Mix).mp3</td>
+        <td>10364476_Moon_Love_(Original_Mix).mp3</td>
+        <td>Stripe, Transients, Gain (-4.2 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2018/03/16</td>
+        <td>320000</td>
+        <td></td>
+        <td>8</td>
+        <td>2024/04/11</td>
+        <td>2023/06/09</td>
+        <td>2024/4/11 20:11:08</td>
+        <td>02:06</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>38</td>
+        <td>None</td>
+        <td>Sprinter (Auxy Afro Baile Edit)</td>
+        <td>Central Cee, Dave</td>
+        <td>04:26</td>
+        <td>130.000</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Baile</td>
+        <td></td>
+        <td>8m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\DJ Fire Aux\Remixes\DJ Fire Aux - Central Cee and Dave - Sprinter (Auxy Afro Baile Edit).wav</td>
+        <td>DJ Fire Aux - Central Cee and Dave - Sprinter (Auxy Afro Baile Edit).wav</td>
+        <td>Stripe, Transients, Gain (+1.1 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>2116800</td>
+        <td></td>
+        <td>7</td>
+        <td>2024/04/11</td>
+        <td>2023/09/23</td>
+        <td>2024/4/11 20:12:46</td>
+        <td>04:07</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>39</td>
+        <td>None</td>
+        <td>SKYLIT (Original Mix)</td>
+        <td>Isoxo</td>
+        <td>04:34</td>
+        <td>130.001</td>
+        <td>9</td>
+        <td>kidsgonemad!</td>
+        <td>88rising</td>
+        <td>Techno (Peak Time / Driving)</td>
+        <td>Ebmin</td>
+        <td>7m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Isoxo\kidsgoenmad\Isoxo_18304087_SKYLIT_(Original_Mix).mp3</td>
+        <td>Isoxo_18304087_SKYLIT_(Original_Mix).mp3</td>
+        <td>Stripe, Transients, Gain (-3.2 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2023/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>2</td>
+        <td>2024/04/11</td>
+        <td>2023/12/30</td>
+        <td>2024/4/11 20:15:10</td>
+        <td>02:56</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>40</td>
+        <td>None</td>
+        <td>Daga Da (Original Mix)</td>
+        <td>Sammy Virji</td>
+        <td>03:49</td>
+        <td>132.000</td>
+        <td>3</td>
+        <td>We'll Be Alright</td>
+        <td>Sammy Virji</td>
+        <td>Garage</td>
+        <td>Bbmin</td>
+        <td>7m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Sammy Virji\We'll Be Alright\15288972_Daga_Da_(Original_Mix).mp3</td>
+        <td>15288972_Daga_Da_(Original_Mix).mp3</td>
+        <td>Stripe, Transients, Gain (-0.7 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2021/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>5</td>
+        <td>2024/04/11</td>
+        <td>2023/03/03</td>
+        <td>2024/4/11 20:17:50</td>
+        <td>01:39</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>41</td>
+        <td>None</td>
+        <td>Jump Around Edit</td>
+        <td>Skeptic</td>
+        <td>03:00</td>
+        <td>131.999</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>UK Garage / Bassline</td>
+        <td></td>
+        <td>8m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Skeptic\Remixes\skeptic - jump around master.mp3</td>
+        <td>skeptic - jump around master.mp3</td>
+        <td>Stripe, Transients, Gain (+2.7 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2022/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>7</td>
+        <td>2024/04/11</td>
+        <td>2023/07/18</td>
+        <td>2024/4/11 20:19:09</td>
+        <td>01:31</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>42</td>
+        <td>None</td>
+        <td>ETA (Manila Killa Remix)</td>
+        <td>New Jeans, Manila Killa</td>
+        <td>04:11</td>
+        <td>132.000</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>House</td>
+        <td></td>
+        <td>8m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Manila Killa\Remixes\NEW JEANS - ETA (MANILA KILLA REMIX).wav</td>
+        <td>NEW JEANS - ETA (MANILA KILLA REMIX).wav</td>
+        <td>Stripe, Transients, Gain (+1.4 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>1411200</td>
+        <td></td>
+        <td>2</td>
+        <td>2024/04/11</td>
+        <td>2024/04/09</td>
+        <td>2024/4/11 20:20:12</td>
+        <td>01:53</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>43</td>
+        <td>None</td>
+        <td>If U Need It (Extended Mix)</td>
+        <td>Sammy Virji</td>
+        <td>03:58</td>
+        <td>132.000</td>
+        <td>1</td>
+        <td>If U Need It (Extended Mix)</td>
+        <td>Positiva</td>
+        <td>UK Garage / Bassline</td>
+        <td>Bbmin</td>
+        <td>7m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Sammy Virji\Singles\Sammy_Virji_18324958_If_U_Need_It_(Extended_Mix).mp3</td>
+        <td>Sammy_Virji_18324958_If_U_Need_It_(Extended_Mix).mp3</td>
+        <td>Stripe, Transients, Gain (-2.0 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2023/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>2</td>
+        <td>2024/04/11</td>
+        <td>2024/04/09</td>
+        <td>2024/4/11 20:21:23</td>
+        <td>01:53</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>44</td>
+        <td>None</td>
+        <td>Wait For It (Original Mix)</td>
+        <td>salute</td>
+        <td>04:00</td>
+        <td>133.001</td>
+        <td>2</td>
+        <td>Peach</td>
+        <td>Technicolour</td>
+        <td>UK Garage / Bassline</td>
+        <td>Bbmin</td>
+        <td>7m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Salute\Peach\17573267_Wait_For_It_(Original_Mix).mp3</td>
+        <td>17573267_Wait_For_It_(Original_Mix).mp3</td>
+        <td>Stripe, Transients, Gain (-1.1 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2023/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>5</td>
+        <td>2024/04/11</td>
+        <td>2023/05/05</td>
+        <td>2024/4/11 20:22:58</td>
+        <td>01:28</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>45</td>
+        <td>None</td>
+        <td>Old Town Road (f r a n c h i s e. Baile Edit)</td>
+        <td>f r a n c h i s e.</td>
+        <td>02:54</td>
+        <td>134.001</td>
+        <td></td>
+        <td>Remixes &amp; Edits Vol. IV</td>
+        <td></td>
+        <td>Baile</td>
+        <td></td>
+        <td>6m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\f r a n c h i s e\REMIXES &amp; EDITS VOL IV\Franchise - Remixes &amp; Edits Vol. IV - 15 Old Town Road (f r a n c h i s e. Baile Edit).wav</td>
+        <td>Franchise - Remixes &amp; Edits Vol. IV - 15 Old Town Road (f r a n c h i s e. Baile Edit).wav</td>
+        <td>Stripe, Transients, Gain (-1.7 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>1411200</td>
+        <td></td>
+        <td>4</td>
+        <td>2024/04/11</td>
+        <td>2023/06/09</td>
+        <td>2024/4/11 20:23:59</td>
+        <td>02:29</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>46</td>
+        <td>None</td>
+        <td>Counting (Sammy Virji Remix)</td>
+        <td>Hamdi</td>
+        <td>03:35</td>
+        <td>134.000</td>
+        <td>1</td>
+        <td>Counting Remixes</td>
+        <td>Deadbeats</td>
+        <td>UK Garage / Bassline</td>
+        <td>Emin</td>
+        <td>2m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Sammy Virji\Remixes\Hamdi_18667867_Counting_(Sammy_Virji_Remix).mp3</td>
+        <td>Hamdi_18667867_Counting_(Sammy_Virji_Remix).mp3</td>
+        <td>Stripe, Transients, Gain (+0.0 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2024/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>2</td>
+        <td>2024/04/11</td>
+        <td>2024/04/09</td>
+        <td>2024/4/11 20:25:00</td>
+        <td>02:01</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>47</td>
+        <td>None</td>
+        <td>Looking For Love (Original Mix)</td>
+        <td>Disclosure</td>
+        <td>04:51</td>
+        <td>134.999</td>
+        <td>1</td>
+        <td>Alchemy</td>
+        <td>Apollo Recs</td>
+        <td>Dance / Electro Pop</td>
+        <td>Dbmaj</td>
+        <td>7m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Disclosure\Alchemy\Disclosure_17858020_Looking_For_Love_(Original_Mix).mp3</td>
+        <td>Disclosure_17858020_Looking_For_Love_(Original_Mix).mp3</td>
+        <td>Stripe, Transients, Gain (+0.7 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2023/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>2</td>
+        <td>2024/04/11</td>
+        <td>2023/08/25</td>
+        <td>2024/4/11 20:27:11</td>
+        <td>02:03</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>48</td>
+        <td>None</td>
+        <td>Kewchee (Extended Mix)</td>
+        <td>Daniel B</td>
+        <td>03:53</td>
+        <td>135.000</td>
+        <td></td>
+        <td>DUMP24</td>
+        <td></td>
+        <td>UK Garage / Bassline</td>
+        <td></td>
+        <td>7m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\SVINT\Projects\2024\2024-02-13-135-instrumental_extended_mix.wav</td>
+        <td>2024-02-13-135-instrumental_extended_mix.wav</td>
+        <td>Stripe, Transients, Gain (-2.0 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>1536000</td>
+        <td></td>
+        <td>2</td>
+        <td>2024/04/11</td>
+        <td>2024/04/09</td>
+        <td>2024/4/11 20:28:30</td>
+        <td>02:07</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>49</td>
+        <td>None</td>
+        <td>Wolves [Explicit]</td>
+        <td>Baby Keem</td>
+        <td>01:24</td>
+        <td>137.999</td>
+        <td>1</td>
+        <td>The Sound of Bad Habit [Explicit]</td>
+        <td></td>
+        <td>Rap &amp; Hip-Hop</td>
+        <td></td>
+        <td>7m</td>
+        <td>Amazon.com Song ID: 200000319549053</td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Baby Keem\The Sound of Bad Habit [Explicit]\01 - Wolves [Explicit].mp3</td>
+        <td>01 - Wolves [Explicit].mp3</td>
+        <td>Stripe, Transients, Gain (-1.3 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2018/01/01</td>
+        <td>245639</td>
+        <td></td>
+        <td>2</td>
+        <td>2024/04/11</td>
+        <td>2023/03/04</td>
+        <td>2024/4/11 20:30:35</td>
+        <td>01:10</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>50</td>
+        <td>None</td>
+        <td>Jump (ft. AGES) [Jack Blom Remix]</td>
+        <td>Leotrix</td>
+        <td>02:55</td>
+        <td>140.004</td>
+        <td>1</td>
+        <td>Jump (ft. AGES) [Jack Blom Remix]</td>
+        <td></td>
+        <td>Garage</td>
+        <td></td>
+        <td>7m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Jack Blom\Remixes\Leotrix - Jump (ft. AGES) [Jack Blom Remix].mp3</td>
+        <td>Leotrix - Jump (ft. AGES) [Jack Blom Remix].mp3</td>
+        <td>Stripe, Transients, Gain (-5.4 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2022/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>4</td>
+        <td>2024/04/11</td>
+        <td>2023/01/30</td>
+        <td>2024/4/11 20:31:31</td>
+        <td>01:22</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>51</td>
+        <td>None</td>
+        <td>Duel On Mustafar</td>
+        <td>Kerosene Dubz</td>
+        <td>03:43</td>
+        <td>139.999</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Dubstep</td>
+        <td></td>
+        <td>3m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Kerosene Dubz\KeroseneDubz - Duel On Mustafar v3.wav</td>
+        <td>KeroseneDubz - Duel On Mustafar v3.wav</td>
+        <td>Stripe, Transients, Gain (-5.4 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>1411200</td>
+        <td></td>
+        <td>6</td>
+        <td>2024/04/11</td>
+        <td>2023/06/09</td>
+        <td>2024/4/11 20:32:54</td>
+        <td>01:22</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>52</td>
+        <td>None</td>
+        <td>TEK (Original Mix)</td>
+        <td>Monty, Visages</td>
+        <td>04:13</td>
+        <td>140.000</td>
+        <td>1</td>
+        <td>TEK</td>
+        <td>1985 Music</td>
+        <td>140 / Deep Dubstep / Grime</td>
+        <td>Dmaj</td>
+        <td>12m</td>
+        <td>Techno &gt; Dubstep</td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Monty\Singles\16860122_TEK_(Original_Mix).mp3</td>
+        <td>16860122_TEK_(Original_Mix).mp3</td>
+        <td>Stripe, Transients, Gain (-0.5 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2022/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>10</td>
+        <td>2024/04/11</td>
+        <td>2023/06/09</td>
+        <td>2024/4/11 20:33:51</td>
+        <td>01:59</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>53</td>
+        <td>None</td>
+        <td>DNA (Nitti Remix)</td>
+        <td>Kendrick Lamar</td>
+        <td>02:36</td>
+        <td>139.998</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Dubstep</td>
+        <td></td>
+        <td>11m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Nitti\Remixes\Kendrick Lamar - DNA (NITTI Remix) .wav</td>
+        <td>Kendrick Lamar - DNA (NITTI Remix) .wav</td>
+        <td>Stripe, Transients, Gain (-5.0 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>1411200</td>
+        <td></td>
+        <td>5</td>
+        <td>2024/04/11</td>
+        <td>2023/07/28</td>
+        <td>2024/4/11 20:34:47</td>
+        <td>02:13</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>54</td>
+        <td>None</td>
+        <td>dontstopme! (Original Mix)</td>
+        <td>Isoxo</td>
+        <td>03:42</td>
+        <td>140.000</td>
+        <td>2</td>
+        <td>kidsgonemad!</td>
+        <td>88rising</td>
+        <td>Trap / Wave</td>
+        <td>Dmaj</td>
+        <td>12m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Isoxo\kidsgoenmad\Isoxo_18304078_dontstopme!_(Original_Mix).mp3</td>
+        <td>Isoxo_18304078_dontstopme!_(Original_Mix).mp3</td>
+        <td>Stripe, Transients, Gain (-4.6 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2023/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>1</td>
+        <td>2024/04/11</td>
+        <td>2023/12/30</td>
+        <td>2024/4/11 20:36:19</td>
+        <td>01:49</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>55</td>
+        <td>None</td>
+        <td>Wanchai (Original Mix)</td>
+        <td>Säkä, Jianbo</td>
+        <td>03:47</td>
+        <td>140.001</td>
+        <td>4</td>
+        <td>Asura EP</td>
+        <td>Deadbeats</td>
+        <td>140 / Deep Dubstep / Grime</td>
+        <td>Gbmin</td>
+        <td>11m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Saka\Asura EP\Saka_(US),_Jianbo_18212674_Wanchai_(Original_Mix).mp3</td>
+        <td>Saka_(US),_Jianbo_18212674_Wanchai_(Original_Mix).mp3</td>
+        <td>Stripe, Transients, Gain (-2.6 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2023/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>1</td>
+        <td>2024/04/11</td>
+        <td>2024/04/09</td>
+        <td>2024/4/11 20:37:28</td>
+        <td>01:41</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>56</td>
+        <td>None</td>
+        <td>Break Ya Dior (f r a n c h i s e. drill edit)</td>
+        <td>f r a n c h i s e.</td>
+        <td>02:58</td>
+        <td>142.002</td>
+        <td></td>
+        <td>Remixes &amp; Edits Vol. VI</td>
+        <td></td>
+        <td>Trap / Hip-Hop / R&amp;B</td>
+        <td></td>
+        <td>11m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\f r a n c h i s e\REMIXES &amp; EDITS VOL VI\Franchise - Remixes &amp; Edits Vol. VI - 02 break ya dior (franchise drill edit).wav</td>
+        <td>Franchise - Remixes &amp; Edits Vol. VI - 02 break ya dior (franchise drill edit).wav</td>
+        <td>Stripe, Transients, Gain (-0.9 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>1411200</td>
+        <td></td>
+        <td>5</td>
+        <td>2024/04/11</td>
+        <td>2023/06/09</td>
+        <td>2024/4/11 20:38:38</td>
+        <td>02:33</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>57</td>
+        <td>None</td>
+        <td>Rumble (Robustt Garage Flip)</td>
+        <td>Skrillex, Flowdan, Fred again..</td>
+        <td>01:53</td>
+        <td>144.002</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Garage</td>
+        <td></td>
+        <td>7d</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Skrillex\Remixes\RUMBLE (Robustt Garage Flip).wav</td>
+        <td>RUMBLE (Robustt Garage Flip).wav</td>
+        <td>Stripe, Transients, Gain (-4.8 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>1411200</td>
+        <td></td>
+        <td>7</td>
+        <td>2024/04/11</td>
+        <td>2023/03/03</td>
+        <td>2024/4/11 20:40:07</td>
+        <td>02:33</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>58</td>
+        <td>None</td>
+        <td>XENA (Original Mix)</td>
+        <td>Skrillex, Nai Barghouti</td>
+        <td>04:12</td>
+        <td>145.000</td>
+        <td>8</td>
+        <td>Quest For Fire</td>
+        <td>OWSLA/Atlantic</td>
+        <td>Trap / Wave</td>
+        <td>Bbmin</td>
+        <td>8m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Skrillex\Quest For FIre\17426106_XENA_(Original_Mix).mp3</td>
+        <td>17426106_XENA_(Original_Mix).mp3</td>
+        <td>Stripe, Transients, Gain (-1.2 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2023/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>5</td>
+        <td>2024/04/11</td>
+        <td>2023/02/18</td>
+        <td>2024/4/11 20:42:05</td>
+        <td>01:29</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>59</td>
+        <td>None</td>
+        <td>Still Tippin</td>
+        <td>Seth David</td>
+        <td>03:09</td>
+        <td>145.000</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Dubstep</td>
+        <td></td>
+        <td>7m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Seth David\Singles\Seth David - Still Tippin (M2).wav</td>
+        <td>Seth David - Still Tippin (M2).wav</td>
+        <td>Stripe, Transients, Gain (-2.0 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>2304000</td>
+        <td></td>
+        <td>2</td>
+        <td>2024/04/11</td>
+        <td>2023/10/09</td>
+        <td>2024/4/11 20:43:15</td>
+        <td>01:30</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>60</td>
+        <td>None</td>
+        <td>Fe!n (Tavatli Remix)</td>
+        <td>Travis Scott</td>
+        <td>04:39</td>
+        <td>144.999</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Techno</td>
+        <td></td>
+        <td>7m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Tavatli\Remixes\Fe!N Remix Extended - Tavatli.mp3</td>
+        <td>Fe!N Remix Extended - Tavatli.mp3</td>
+        <td>Stripe, Transients, Gain (-3.6 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>320000</td>
+        <td></td>
+        <td>1</td>
+        <td>2024/04/11</td>
+        <td>2023/12/09</td>
+        <td>2024/4/11 20:44:19</td>
+        <td>01:35</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>61</td>
+        <td>None</td>
+        <td>Hentai Riddim</td>
+        <td>Keru</td>
+        <td>03:39</td>
+        <td>145.001</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Dubstep, Riddim</td>
+        <td></td>
+        <td>3d</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Keru\HENTAI RIDDIM.wav</td>
+        <td>HENTAI RIDDIM.wav</td>
+        <td>Stripe, Transients, Gain (-4.2 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>2116800</td>
+        <td></td>
+        <td>1</td>
+        <td>2024/04/11</td>
+        <td>2024/04/09</td>
+        <td>2024/4/11 20:45:17</td>
+        <td>01:34</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>62</td>
+        <td>None</td>
+        <td>Hooyah! (Extended Mix)</td>
+        <td>Fahjah CHYL</td>
+        <td>03:01</td>
+        <td>150.000</td>
+        <td>1</td>
+        <td>Hooyah!</td>
+        <td>Dim Mak Records</td>
+        <td>Speed House</td>
+        <td>Amin</td>
+        <td>1m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Chyl\Singles\17347964_Hooyah!_(Extended_Mix).mp3</td>
+        <td>17347964_Hooyah!_(Extended_Mix).mp3</td>
+        <td>Stripe, Transients, Gain (-2.8 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2023/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>2</td>
+        <td>2024/04/11</td>
+        <td>2023/03/03</td>
+        <td>2024/4/11 20:46:33</td>
+        <td>01:10</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>63</td>
+        <td>None</td>
+        <td>Angels Landing (Original Mix)</td>
+        <td>Isoxo FrostTop</td>
+        <td>03:54</td>
+        <td>150.000</td>
+        <td>1</td>
+        <td>Angels Landing</td>
+        <td>NIGHTMODE</td>
+        <td>Trap / Wave</td>
+        <td>Cmin</td>
+        <td>10m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Isoxo\Singles\16762181_Angels_Landing_(Original_Mix).mp3</td>
+        <td>16762181_Angels_Landing_(Original_Mix).mp3</td>
+        <td>Stripe, Transients, Gain (-4.7 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2022/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>6</td>
+        <td>2024/04/11</td>
+        <td>2023/03/03</td>
+        <td>2024/4/11 20:47:31</td>
+        <td>01:30</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>64</td>
+        <td>None</td>
+        <td>Massaging Me (TRAVYP Remix)</td>
+        <td>Future</td>
+        <td>02:18</td>
+        <td>150.000</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Techno</td>
+        <td></td>
+        <td>10m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\TRAVYP\Remixes\TRAVYP - MASSAGING ME.wav</td>
+        <td>TRAVYP - MASSAGING ME.wav</td>
+        <td>Stripe, Transients, Gain (+1.1 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>2304000</td>
+        <td></td>
+        <td>5</td>
+        <td>2024/04/11</td>
+        <td>2023/05/05</td>
+        <td>2024/4/11 20:48:32</td>
+        <td>01:20</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>65</td>
+        <td>None</td>
+        <td>VOXCUTR (Original Mix)</td>
+        <td>Isoxo</td>
+        <td>03:57</td>
+        <td>150.000</td>
+        <td>4</td>
+        <td>kidsgonemad!</td>
+        <td>88rising</td>
+        <td>Techno (Peak Time / Driving)</td>
+        <td>Dmin</td>
+        <td>12m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Isoxo\kidsgoenmad\Isoxo_18304080_VOXCUTR_(Original_Mix).mp3</td>
+        <td>Isoxo_18304080_VOXCUTR_(Original_Mix).mp3</td>
+        <td>Stripe, Transients, Gain (-3.3 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2023/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>2</td>
+        <td>2024/04/11</td>
+        <td>2023/12/30</td>
+        <td>2024/4/11 20:49:41</td>
+        <td>01:10</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>66</td>
+        <td>None</td>
+        <td>Cupid (Ezra Hazard Hard Mix)</td>
+        <td>FIFTY FIFTY</td>
+        <td>03:16</td>
+        <td>154.998</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Hard Dance</td>
+        <td></td>
+        <td>12m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Fifty Fifty\Remixes\FIFTY FIFTY - Cupid (Ezra Hazard Hard Mix).mp3</td>
+        <td>FIFTY FIFTY - Cupid (Ezra Hazard Hard Mix).mp3</td>
+        <td>Stripe, Transients, Gain (-2.5 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>320000</td>
+        <td></td>
+        <td>11</td>
+        <td>2024/04/11</td>
+        <td>2023/06/11</td>
+        <td>2024/4/11 20:50:29</td>
+        <td>01:39</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>67</td>
+        <td>None</td>
+        <td>UNDERGROUND (Original Mix)</td>
+        <td>MUST DIE!</td>
+        <td>03:03</td>
+        <td>155.000</td>
+        <td>1</td>
+        <td>UNDERGROUND</td>
+        <td>Create Music Group</td>
+        <td>Hard Dance / Hardcore</td>
+        <td>Fmin</td>
+        <td>9m</td>
+        <td>Techno &gt; Hard Style</td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\MUST DIE\Singles\MUST_DIE!_17898935_UNDERGROUND_(Original_Mix).mp3</td>
+        <td>MUST_DIE!_17898935_UNDERGROUND_(Original_Mix).mp3</td>
+        <td>Stripe, Transients, Gain (-4.0 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2023/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>9</td>
+        <td>2024/04/11</td>
+        <td>2023/08/25</td>
+        <td>2024/4/11 20:52:03</td>
+        <td>00:56</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>68</td>
+        <td>None</td>
+        <td>Hodo (HEZEN: Redo)</td>
+        <td>Two Fingers, Thys</td>
+        <td>03:58</td>
+        <td>160.000</td>
+        <td>3</td>
+        <td>Hodo: Redo</td>
+        <td>Vision Recordings</td>
+        <td>Bass / Club</td>
+        <td>Fmin</td>
+        <td>9m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Thys\Hodo Redo\17703548_Hodo_(HEZEN__Redo).mp3</td>
+        <td>17703548_Hodo_(HEZEN__Redo).mp3</td>
+        <td>Stripe, Transients, Gain (-1.0 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2023/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>2</td>
+        <td>2024/04/11</td>
+        <td>2023/05/13</td>
+        <td>2024/4/11 20:52:43</td>
+        <td>01:51</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>69</td>
+        <td>None</td>
+        <td>Trap And A Dream [Explicit]</td>
+        <td>A$AP Ferg feat. Meek Mill</td>
+        <td>03:10</td>
+        <td>161.999</td>
+        <td>1</td>
+        <td>Still Striving [Explicit]</td>
+        <td></td>
+        <td>Rap &amp; Hip-Hop</td>
+        <td></td>
+        <td>10m</td>
+        <td>Amazon.com Song ID: 286060280</td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\A$AP Ferg\Still Striving [Explicit]\01 - Trap And A Dream [Explicit].mp3</td>
+        <td>01 - Trap And A Dream [Explicit].mp3</td>
+        <td>Stripe, Transients, Gain (-1.0 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2017/01/01</td>
+        <td>267761</td>
+        <td></td>
+        <td>3</td>
+        <td>2024/04/11</td>
+        <td>2023/03/10</td>
+        <td>2024/4/11 20:54:18</td>
+        <td>02:13</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>70</td>
+        <td>None</td>
+        <td>Hold On (Wuki Edit)</td>
+        <td>Aaliyah</td>
+        <td>02:44</td>
+        <td>169.999</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Drum &amp; Bass</td>
+        <td></td>
+        <td>10m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Wuki\Remixes\Aaliyah On Hold [Wukileak] Update v2.mp3</td>
+        <td>Aaliyah On Hold [Wukileak] Update v2.mp3</td>
+        <td>Stripe, Transients, Gain (-1.7 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>320000</td>
+        <td></td>
+        <td>1</td>
+        <td>2024/04/11</td>
+        <td>2023/12/09</td>
+        <td>2024/4/11 20:55:36</td>
+        <td>02:28</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>71</td>
+        <td>None</td>
+        <td>Jungle (Arcando Remix)</td>
+        <td>Alok, The Chainsmokers, Mae Stephens</td>
+        <td>02:44</td>
+        <td>170.005</td>
+        <td>1</td>
+        <td>Jungle (Remixes)</td>
+        <td>Columbia/B1 Recordings</td>
+        <td>Drum &amp; Bass</td>
+        <td>Dbmin</td>
+        <td>5m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Arcando\Remixes\Alok,_The_Chainsmokers,_Mae_Stephens_18625769_Jungle_(Arcando_Remix).mp3</td>
+        <td>Alok,_The_Chainsmokers,_Mae_Stephens_18625769_Jungle_(Arcando_Remix).mp3</td>
+        <td>Stripe, Transients, Gain (-1.8 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2023/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>2</td>
+        <td>2024/04/11</td>
+        <td>2024/04/09</td>
+        <td>2024/4/11 20:57:21</td>
+        <td>02:23</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>72</td>
+        <td>None</td>
+        <td>Where You Are (Blanke Edit)</td>
+        <td>John Summit, Hayla</td>
+        <td>03:31</td>
+        <td>172.002</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Drum &amp; Bass</td>
+        <td></td>
+        <td>1m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\John Summit\Remixes\John Summit &amp; Hayla - Where You Are (Blanke's ON_EDIT) v3d.wav</td>
+        <td>John Summit &amp; Hayla - Where You Are (Blanke's ON_EDIT) v3d.wav</td>
+        <td>Stripe, Transients, Gain (-3.7 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>2116800</td>
+        <td></td>
+        <td>6</td>
+        <td>2024/04/11</td>
+        <td>2023/06/14</td>
+        <td>2024/4/11 20:59:15</td>
+        <td>01:48</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>73</td>
+        <td>None</td>
+        <td>Biggest Regret (feat. Bbyafricka) (Drum and Bass Remix)</td>
+        <td>Gorgon City, Bbyafricka</td>
+        <td>04:09</td>
+        <td>173.000</td>
+        <td>1</td>
+        <td>Biggest Regret (feat. Bbyafricka) [Drum and Bass Remix]</td>
+        <td>REALM Records</td>
+        <td>Drum &amp; Bass</td>
+        <td>Emin</td>
+        <td>2m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Gorgon City\Singles\Gorgon_City,_Bbyafricka_18655905_Biggest_Regret_(feat._Bbyafricka)_(Drum_and_Bass_Remix).mp3</td>
+        <td>Gorgon_City,_Bbyafricka_18655905_Biggest_Regret_(feat._Bbyafricka)_(Drum_and_Bass_Remix).mp3</td>
+        <td>Stripe, Transients, Gain (-0.8 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2024/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>2</td>
+        <td>2024/04/11</td>
+        <td>2024/04/09</td>
+        <td>2024/4/11 21:00:32</td>
+        <td>01:14</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>74</td>
+        <td>None</td>
+        <td>Doja (R3dX Remix)</td>
+        <td>Central Cee</td>
+        <td>04:27</td>
+        <td>174.000</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Drum &amp; Bass</td>
+        <td></td>
+        <td>5d</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Central Cee\Remixes\Central Cee - Doja (R3dX Remix).wav</td>
+        <td>Central Cee - Doja (R3dX Remix).wav</td>
+        <td>Stripe, Transients, Gain (-1.3 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>1411200</td>
+        <td></td>
+        <td>5</td>
+        <td>2024/04/11</td>
+        <td>2023/02/23</td>
+        <td>2024/4/11 21:01:24</td>
+        <td>01:51</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>75</td>
+        <td>None</td>
+        <td>Better Than Gold feat. Andrew Hellier (Original Mix)</td>
+        <td>Justin Hawkes, Andrew Hellier</td>
+        <td>05:21</td>
+        <td>174.001</td>
+        <td>2</td>
+        <td>Existential</td>
+        <td>Pilot.</td>
+        <td>Drum &amp; Bass</td>
+        <td>Emaj</td>
+        <td>2m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Justin Hawkes\Existential\16916952_Better_Than_Gold_feat._Andrew_Hellier_(Original_Mix).mp3</td>
+        <td>16916952_Better_Than_Gold_feat._Andrew_Hellier_(Original_Mix).mp3</td>
+        <td>Stripe, Transients, Gain (-4.0 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2022/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>2</td>
+        <td>2024/04/11</td>
+        <td>2023/05/13</td>
+        <td>2024/4/11 21:02:32</td>
+        <td>02:53</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>76</td>
+        <td>None</td>
+        <td>Selecta (Old Sport &amp; Loboski Bootleg) </td>
+        <td>Chase &amp; Status Old Sport Loboski</td>
+        <td>03:19</td>
+        <td>174.001</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Drum &amp; Bass</td>
+        <td></td>
+        <td>1m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Old Sport\Remixes\Chase &amp; Status - Selecta (Old Sport &amp; Loboski Bootleg) 2024 M2.mp3</td>
+        <td>Chase &amp; Status - Selecta (Old Sport &amp; Loboski Bootleg) 2024 M2.mp3</td>
+        <td>Stripe, Transients, Gain (-3.4 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>320000</td>
+        <td></td>
+        <td>2</td>
+        <td>2024/04/11</td>
+        <td>2024/04/09</td>
+        <td>2024/4/11 21:04:43</td>
+        <td>01:50</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>77</td>
+        <td>None</td>
+        <td>Hispanoamericano (Blossom Remix)</td>
+        <td>Black Caviar, EURI</td>
+        <td>03:57</td>
+        <td>175.001</td>
+        <td>2</td>
+        <td>Hispanoamericano: The Remixes</td>
+        <td>Create Music Group</td>
+        <td>Drum &amp; Bass</td>
+        <td>7m</td>
+        <td>7m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Blossom\Remixes\16442818_Hispanoamericano_(Blossom_Remix).mp3</td>
+        <td>16442818_Hispanoamericano_(Blossom_Remix).mp3</td>
+        <td>Stripe, Transients, Gain (-2.0 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2022/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>5</td>
+        <td>2024/04/11</td>
+        <td>2023/01/18</td>
+        <td>2024/4/11 21:06:11</td>
+        <td>01:16</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>78</td>
+        <td>None</td>
+        <td>Way Back (Original Mix)</td>
+        <td>Skrillex, Trippie Redd, PinkPantheress</td>
+        <td>02:00</td>
+        <td>175.000</td>
+        <td>2</td>
+        <td>Don't Get Too Close</td>
+        <td>OWSLA/Atlantic</td>
+        <td>Drum &amp; Bass</td>
+        <td>Dmaj</td>
+        <td>3d</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Skrillex\Don't Get Too Close\17432195_Way_Back_(Original_Mix).mp3</td>
+        <td>17432195_Way_Back_(Original_Mix).mp3</td>
+        <td>Stripe, Transients, Gain (-0.8 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2023/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>5</td>
+        <td>2024/04/11</td>
+        <td>2023/02/19</td>
+        <td>2024/4/11 21:07:01</td>
+        <td>01:50</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>79</td>
+        <td>None</td>
+        <td>Remedy (feat. TS Graye)</td>
+        <td>Dimension</td>
+        <td>04:11</td>
+        <td>173.999</td>
+        <td>6</td>
+        <td>Organ</td>
+        <td></td>
+        <td>Drum &amp; Bass</td>
+        <td>Gm</td>
+        <td>11m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\iTunes\Music\Dimension\Organ\06 Remedy (feat. TS Graye).m4a</td>
+        <td>06 Remedy (feat. TS Graye).m4a</td>
+        <td>Stripe, Transients, Gain (-5.2 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2020/01/01</td>
+        <td>256000</td>
+        <td></td>
+        <td>3</td>
+        <td>2024/04/11</td>
+        <td>2021/04/24</td>
+        <td>2024/4/11 21:08:29</td>
+        <td>01:35</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>80</td>
+        <td>None</td>
+        <td>Desire</td>
+        <td>Sub Focus &amp; Dimension</td>
+        <td>04:25</td>
+        <td>174.001</td>
+        <td>16</td>
+        <td>Organ</td>
+        <td></td>
+        <td>Drum &amp; Bass</td>
+        <td>6m</td>
+        <td>6m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\iTunes\Music\Dimension\Organ\16 Desire.m4a</td>
+        <td>16 Desire.m4a</td>
+        <td>Stripe, Transients, Gain (-5.0 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2021/03/05</td>
+        <td>256000</td>
+        <td></td>
+        <td>3</td>
+        <td>2024/04/11</td>
+        <td>2021/04/24</td>
+        <td>2024/4/11 21:09:52</td>
+        <td>01:50</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>81</td>
+        <td>None</td>
+        <td>Feel Love Again</td>
+        <td>Kove &amp; Dimension</td>
+        <td>04:09</td>
+        <td>174.001</td>
+        <td>2</td>
+        <td>Murmurations - EP</td>
+        <td></td>
+        <td>Drum &amp; Bass</td>
+        <td>11m</td>
+        <td>11m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\iTunes\Music\Kove\Murmurations - EP\02 Feel Love Again.m4a</td>
+        <td>02 Feel Love Again.m4a</td>
+        <td>Stripe, Transients, Gain (-3.4 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2014/01/01</td>
+        <td>256000</td>
+        <td></td>
+        <td>8</td>
+        <td>2024/04/11</td>
+        <td>2020/12/25</td>
+        <td>2024/4/11 21:10:36</td>
+        <td>01:50</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>82</td>
+        <td>None</td>
+        <td>Control (feat. Max Marshall)</td>
+        <td>Matrix &amp; Futurebound</td>
+        <td>03:49</td>
+        <td>174.000</td>
+        <td>7</td>
+        <td>Mystery Machine</td>
+        <td></td>
+        <td>Drum &amp; Bass</td>
+        <td>1m</td>
+        <td>1m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\iTunes\Music\Compilations\Mystery Machine\07 Control (feat. Max Marshall).m4a</td>
+        <td>07 Control (feat. Max Marshall).m4a</td>
+        <td>Stripe, Transients, Gain (-4.2 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2013/12/29</td>
+        <td>256000</td>
+        <td></td>
+        <td>6</td>
+        <td>2024/04/11</td>
+        <td>2020/12/30</td>
+        <td>2024/4/11 21:12:26</td>
+        <td>01:28</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>83</td>
+        <td>None</td>
+        <td>Fire (feat. Max Marshall)</td>
+        <td>Matrix &amp; Futurebound</td>
+        <td>03:03</td>
+        <td>174.000</td>
+        <td>14</td>
+        <td>Mystery Machine</td>
+        <td></td>
+        <td>Drum &amp; Bass</td>
+        <td>8m</td>
+        <td>8m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\iTunes\Music\Compilations\Mystery Machine\14 Fire (feat. Max Marshall).m4a</td>
+        <td>14 Fire (feat. Max Marshall).m4a</td>
+        <td>Stripe, Transients, Gain (-2.6 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2016/10/07</td>
+        <td>256000</td>
+        <td></td>
+        <td>8</td>
+        <td>2024/04/11</td>
+        <td>2020/12/30</td>
+        <td>2024/4/11 21:13:32</td>
+        <td>01:07</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>84</td>
+        <td>None</td>
+        <td>Happy (DnB Bootleg)</td>
+        <td>Pharrell Williams</td>
+        <td>04:07</td>
+        <td>174.999</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Drum &amp; Bass</td>
+        <td>9m</td>
+        <td>9m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Pharrell Williams\Pharrell Williams - Happy (DnB Bootleg).mp3</td>
+        <td>Pharrell Williams - Happy (DnB Bootleg).mp3</td>
+        <td>Stripe, Transients, Gain (-0.7 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2014/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>4</td>
+        <td>2024/04/11</td>
+        <td>2014/01/23</td>
+        <td>2024/4/11 21:14:32</td>
+        <td>01:57</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>85</td>
+        <td>None</td>
+        <td>Coast Is Clear</td>
+        <td>Skrillex</td>
+        <td>04:04</td>
+        <td>160.000</td>
+        <td>5</td>
+        <td>Recess</td>
+        <td></td>
+        <td>Electronica</td>
+        <td>8m</td>
+        <td>8m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\iTunes\Music\Skrillex\Recess\05 Coast Is Clear.mp3</td>
+        <td>05 Coast Is Clear.mp3</td>
+        <td>Stripe, Transients, Gain (-3.4 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2014/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>7</td>
+        <td>2024/04/11</td>
+        <td>2020/04/15</td>
+        <td>2024/4/11 21:16:04</td>
+        <td>02:06</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>86</td>
+        <td>None</td>
+        <td>Core (Justin Hawkes Remix)</td>
+        <td>RL Grime</td>
+        <td>03:00</td>
+        <td>174.002</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Drum &amp; Bass</td>
+        <td>7m</td>
+        <td>7m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\RL Grime\Remixes\RL Grime - Core (Justin Hawkes Remix).mp3</td>
+        <td>RL Grime - Core (Justin Hawkes Remix).mp3</td>
+        <td>Stripe, Transients, Gain (-4.7 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2018/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>13</td>
+        <td>2024/04/11</td>
+        <td>2022/10/30</td>
+        <td>2024/4/11 21:17:47</td>
+        <td>01:29</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>87</td>
+        <td>None</td>
+        <td>Mobbin</td>
+        <td>Grandtheft feat. Hedspin</td>
+        <td>03:07</td>
+        <td>180.000</td>
+        <td>1</td>
+        <td>Mobbin / Give Me More</td>
+        <td></td>
+        <td></td>
+        <td>10d</td>
+        <td>10d</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Grandtheft &amp; Skratch Bastid\Grandtheft - Mobbin feat. Hedspin   www.KlubowaMuza.eu.mp3</td>
+        <td>Grandtheft - Mobbin feat. Hedspin   www.KlubowaMuza.eu.mp3</td>
+        <td>Stripe, Transients, Gain (-3.1 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2013/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>2</td>
+        <td>2024/04/11</td>
+        <td>2020/04/15</td>
+        <td>2024/4/11 21:19:06</td>
+        <td>01:13</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>88</td>
+        <td>None</td>
+        <td>WAY UP!</td>
+        <td>Tropkillaz</td>
+        <td>03:20</td>
+        <td>188.001</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>TRAP</td>
+        <td>7m</td>
+        <td>7m</td>
+        <td>@tropkillaz is @zegon + @laudz </td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Tropkillaz\Tropkillaz - WAY UP!.mp3</td>
+        <td>Tropkillaz - WAY UP!.mp3</td>
+        <td>Stripe, Transients, Gain (-0.8 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>320000</td>
+        <td></td>
+        <td>3</td>
+        <td>2024/04/11</td>
+        <td>2014/08/07</td>
+        <td>2024/4/11 21:19:59</td>
+        <td>01:14</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>89</td>
+        <td>None</td>
+        <td>Clock It (VIP Mix)</td>
+        <td>DMNDZ</td>
+        <td>03:46</td>
+        <td>192.000</td>
+        <td>6</td>
+        <td>Madness 2.0</td>
+        <td>Elementary Muzik</td>
+        <td>Hip-Hop</td>
+        <td>6d</td>
+        <td>7m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\DMNDZ\4823184_Clock_It_VIP_Mix.mp3</td>
+        <td>4823184_Clock_It_VIP_Mix.mp3</td>
+        <td>Stripe, Transients, Gain (-2.0 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2013/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>2</td>
+        <td>2024/04/11</td>
+        <td>2014/03/15</td>
+        <td>2024/4/11 21:20:42</td>
+        <td>01:25</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>90</td>
+        <td>None</td>
+        <td>Valhalla (feat. Djemba Djemba)</td>
+        <td>RL Grime</td>
+        <td>03:47</td>
+        <td>170.000</td>
+        <td>5</td>
+        <td>Void</td>
+        <td></td>
+        <td>Trap</td>
+        <td>4m</td>
+        <td>4m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\RL Grime\RL Grime - Void\05.  Valhalla (feat. Djemba Djemba).mp3</td>
+        <td>05.  Valhalla (feat. Djemba Djemba).mp3</td>
+        <td>Stripe, Transients, Gain (-2.6 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2014/01/01</td>
+        <td>191996</td>
+        <td></td>
+        <td>8</td>
+        <td>2024/04/11</td>
+        <td>2020/04/15</td>
+        <td>2024/4/11 21:21:48</td>
+        <td>01:25</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>91</td>
+        <td>None</td>
+        <td>CLIQUE  (KEYS N KRATES RMX)</td>
+        <td>Kanye West ft Big Sean &amp; Jay-Z</td>
+        <td>03:33</td>
+        <td>163.997</td>
+        <td></td>
+        <td>faak an album</td>
+        <td></td>
+        <td>MoFUCKIN RAP BEATS</td>
+        <td>1d</td>
+        <td>4m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Key N Krates\CLIQUE  (KEYS N KRATES RMX).mp3</td>
+        <td>CLIQUE  (KEYS N KRATES RMX).mp3</td>
+        <td>Stripe, Transients, Gain (-0.9 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>320000</td>
+        <td></td>
+        <td>3</td>
+        <td>2024/04/11</td>
+        <td>2014/08/14</td>
+        <td>2024/4/11 21:22:54</td>
+        <td>01:21</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>92</td>
+        <td>None</td>
+        <td>Gucci Gucci (Mura Masa Edit)</td>
+        <td>Kreyshawn</td>
+        <td>03:26</td>
+        <td>154.000</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>3m</td>
+        <td>3m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Mura Masa\gucci gucci (mura masa edit).mp3</td>
+        <td>gucci gucci (mura masa edit).mp3</td>
+        <td>Stripe, Transients, Gain (+1.7 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>128000</td>
+        <td></td>
+        <td>3</td>
+        <td>2024/04/11</td>
+        <td>2020/04/15</td>
+        <td>2024/4/11 21:23:56</td>
+        <td>01:45</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>93</td>
+        <td>None</td>
+        <td>Core</td>
+        <td>RL Grime</td>
+        <td>03:57</td>
+        <td>149.999</td>
+        <td>7</td>
+        <td>Void</td>
+        <td></td>
+        <td>Trap</td>
+        <td>Fm</td>
+        <td>9m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\RL Grime\RL Grime - Void\07. Core.mp3</td>
+        <td>07. Core.mp3</td>
+        <td>Stripe, Transients, Gain (-1.3 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2014/01/01</td>
+        <td>191996</td>
+        <td></td>
+        <td>6</td>
+        <td>2024/04/11</td>
+        <td>2015/07/13</td>
+        <td>2024/4/11 21:24:54</td>
+        <td>01:28</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>94</td>
+        <td>None</td>
+        <td>DAMN (feat. Freddie Gibbs) (Bonus Track)</td>
+        <td>JOYRYDE</td>
+        <td>03:41</td>
+        <td>150.000</td>
+        <td>18</td>
+        <td>BRAVE [Explicit]</td>
+        <td></td>
+        <td>Dance &amp; DJ</td>
+        <td>Em</td>
+        <td>2m</td>
+        <td>Amazon.com Song ID: 200000353649863</td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\JOYRYDE\BRAVE [Explicit]\18 - DAMN (feat. Freddie Gibbs) (Bonus Track) [Explicit].mp3</td>
+        <td>18 - DAMN (feat. Freddie Gibbs) (Bonus Track) [Explicit].mp3</td>
+        <td>Stripe, Transients, Gain (-1.9 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2020/01/01</td>
+        <td>270898</td>
+        <td></td>
+        <td>3</td>
+        <td>2024/04/11</td>
+        <td>2022/11/12</td>
+        <td>2024/4/11 21:26:23</td>
+        <td>01:10</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>95</td>
+        <td>None</td>
+        <td>FOCUS (feat. Roger Montgomery) [Explicit]</td>
+        <td>JOYRYDE, Roger Montgomery</td>
+        <td>04:05</td>
+        <td>150.001</td>
+        <td>7</td>
+        <td>BRAVE [Explicit]</td>
+        <td></td>
+        <td>Dance &amp; DJ</td>
+        <td>Em</td>
+        <td>2m</td>
+        <td>Amazon.com Song ID: 200000353650194</td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\JOYRYDE\BRAVE [Explicit]\07 - FOCUS (feat. Roger Montgomery) [Explicit].mp3</td>
+        <td>07 - FOCUS (feat. Roger Montgomery) [Explicit].mp3</td>
+        <td>Stripe, Transients, Gain (-3.5 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2020/01/01</td>
+        <td>280094</td>
+        <td></td>
+        <td>5</td>
+        <td>2024/04/11</td>
+        <td>2022/11/12</td>
+        <td>2024/4/11 21:27:03</td>
+        <td>01:38</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>96</td>
+        <td>None</td>
+        <td>Stinger (Original Mix)</td>
+        <td>RL Grime Isoxo</td>
+        <td>03:51</td>
+        <td>146.999</td>
+        <td>1</td>
+        <td>Stinger</td>
+        <td>Sable Valley Records</td>
+        <td>Trap / Hip-Hop / R&amp;B</td>
+        <td>Emaj</td>
+        <td>2m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Isoxo\15078387_Stinger_(Original_Mix).mp3</td>
+        <td>15078387_Stinger_(Original_Mix).mp3</td>
+        <td>Stripe, Transients, Gain (-4.2 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2021/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>2</td>
+        <td>2024/04/11</td>
+        <td>2023/03/03</td>
+        <td>2024/4/11 21:28:28</td>
+        <td>00:53</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>97</td>
+        <td>None</td>
+        <td>Scylla</td>
+        <td>RL Grime</td>
+        <td>04:48</td>
+        <td>140.001</td>
+        <td>3</td>
+        <td>Void</td>
+        <td></td>
+        <td>Trap</td>
+        <td>G#m</td>
+        <td>6m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\RL Grime\RL Grime - Void\03.  Scylla.mp3</td>
+        <td>03.  Scylla.mp3</td>
+        <td>Stripe, Transients, Gain (-2.1 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2014/01/01</td>
+        <td>191997</td>
+        <td></td>
+        <td>8</td>
+        <td>2024/04/11</td>
+        <td>2015/07/13</td>
+        <td>2024/4/11 21:29:09</td>
+        <td>01:09</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>98</td>
+        <td>None</td>
+        <td>Around Me (Original Mix)</td>
+        <td>RL Grime</td>
+        <td>03:31</td>
+        <td>140.001</td>
+        <td>22</td>
+        <td>PLAY</td>
+        <td>Sable Valley Records</td>
+        <td>Speed House</td>
+        <td>Fmin</td>
+        <td>9m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\RL Grime\PLAY\RL_Grime_18114401_Around_Me_(Original_Mix).mp3</td>
+        <td>RL_Grime_18114401_Around_Me_(Original_Mix).mp3</td>
+        <td>Stripe, Transients, Gain (-3.4 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2023/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>1</td>
+        <td>2024/04/11</td>
+        <td>2023/12/30</td>
+        <td>2024/4/11 21:30:05</td>
+        <td>00:55</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>99</td>
+        <td>None</td>
+        <td>Pump It (Prozak Remix)</td>
+        <td>Black Eyed Peas</td>
+        <td>03:50</td>
+        <td>138.000</td>
+        <td></td>
+        <td>dubs vol. 1</td>
+        <td></td>
+        <td>UK Garage / Bassline</td>
+        <td></td>
+        <td>9m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Prozak\Prozak - dubs vol.1\Prozak - dubs vol.1 - 03 Pump It.wav</td>
+        <td>Prozak - dubs vol.1 - 03 Pump It.wav</td>
+        <td>Stripe, Transients, Gain (-1.9 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>1411200</td>
+        <td></td>
+        <td>5</td>
+        <td>2024/04/11</td>
+        <td>2023/09/23</td>
+        <td>2024/4/11 21:30:47</td>
+        <td>01:06</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>100</td>
+        <td>None</td>
+        <td>Sprinter (Young Franco Remix)</td>
+        <td>Central Cee / Dave</td>
+        <td>03:24</td>
+        <td>139.001</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>UK Garage / Bassline</td>
+        <td></td>
+        <td>8m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Young Franco\Remixes\Sprinter (Young Franco Remix).mp3</td>
+        <td>Sprinter (Young Franco Remix).mp3</td>
+        <td>Stripe, Transients, Gain (-2.1 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>320000</td>
+        <td></td>
+        <td>6</td>
+        <td>2024/04/11</td>
+        <td>2023/09/23</td>
+        <td>2024/4/11 21:31:32</td>
+        <td>01:44</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>101</td>
+        <td>None</td>
+        <td>Hollaback Girl Edit</td>
+        <td>Skeptic</td>
+        <td>02:49</td>
+        <td>135.000</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>UK Garage / Bassline</td>
+        <td></td>
+        <td>7m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Skeptic\Remixes\hollaback girl.mp3</td>
+        <td>hollaback girl.mp3</td>
+        <td>Stripe, Transients, Gain (+5.9 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2022/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>6</td>
+        <td>2024/04/11</td>
+        <td>2023/07/18</td>
+        <td>2024/4/11 21:33:02</td>
+        <td>01:27</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>102</td>
+        <td>None</td>
+        <td>stayinit (Original Mix)</td>
+        <td>Lil Yachty, Overmono, Fred again..</td>
+        <td>04:35</td>
+        <td>134.000</td>
+        <td>1</td>
+        <td>stayinit</td>
+        <td>Atlantic Records UK</td>
+        <td>UK Garage / Bassline</td>
+        <td>Gmin</td>
+        <td>11m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Fred Again\USB\Lil_Yachty,_Overmono,_Fred_again.._18767182_stayinit_(Original_Mix).mp3</td>
+        <td>Lil_Yachty,_Overmono,_Fred_again.._18767182_stayinit_(Original_Mix).mp3</td>
+        <td>Stripe, Transients, Gain (-0.8 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2024/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>1</td>
+        <td>2024/04/11</td>
+        <td>2024/04/09</td>
+        <td>2024/4/11 21:34:15</td>
+        <td>01:35</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>103</td>
+        <td>None</td>
+        <td>Delilah (pull me out of this)</td>
+        <td>Fred again..</td>
+        <td>04:11</td>
+        <td>134.000</td>
+        <td>3</td>
+        <td>Actual Life 3 (January 1 - September 9 2022) [Explicit]</td>
+        <td></td>
+        <td>Dance &amp; DJ</td>
+        <td>11m</td>
+        <td>11m</td>
+        <td>Amazon.com Song ID: 200000460442279</td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Fred again__\Actual Life 3 (January 1 - September 9 2022) [Expl\03 - Delilah (pull me out of this) [Explicit].mp3</td>
+        <td>03 - Delilah (pull me out of this) [Explicit].mp3</td>
+        <td>Stripe, Transients, Gain (-0.1 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2022/01/01</td>
+        <td>272718</td>
+        <td></td>
+        <td>10</td>
+        <td>2024/04/11</td>
+        <td>2022/10/28</td>
+        <td>2024/4/11 21:35:32</td>
+        <td>01:30</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>104</td>
+        <td>None</td>
+        <td>Billie (loving arms)</td>
+        <td>Fred again..</td>
+        <td>03:38</td>
+        <td>127.999</td>
+        <td>13</td>
+        <td>Actual Life 2 (February 2 - October 15 2021) [Explicit]</td>
+        <td></td>
+        <td>Dance &amp; DJ</td>
+        <td>11d</td>
+        <td>11d</td>
+        <td>Amazon.com Song ID: 200000419453811</td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Fred again__\Actual Life 2 (February 2 - October 15 2021) [Expl\13 - Billie (loving arms).mp3</td>
+        <td>13 - Billie (loving arms).mp3</td>
+        <td>Stripe, Transients, Gain (-1.7 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2021/01/01</td>
+        <td>279237</td>
+        <td></td>
+        <td>3</td>
+        <td>2024/04/11</td>
+        <td>2022/10/28</td>
+        <td>2024/4/11 21:36:20</td>
+        <td>02:53</td>
+        <td>Deck B</td>
+        <td>yes</td>
+      </tr>
+      <tr>
+        <td>105</td>
+        <td>None</td>
+        <td>leavemealone (Original Mix)</td>
+        <td>Fred again.., Baby Keem</td>
+        <td>03:43</td>
+        <td>174.000</td>
+        <td>1</td>
+        <td>leavemealone</td>
+        <td>Atlantic Records UK</td>
+        <td>Drum &amp; Bass</td>
+        <td>Amin</td>
+        <td>12m</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>D:\Backup\Dropbox\Music\Daniel's\Fred Again\Fred_again..,_Baby_Keem_18448575_leavemealone_(Original_Mix).mp3</td>
+        <td>Fred_again..,_Baby_Keem_18448575_leavemealone_(Original_Mix).mp3</td>
+        <td>Stripe, Transients, Gain (-2.2 dB), Key</td>
+        <td></td>
+        <td></td>
+        <td>2023/01/01</td>
+        <td>320000</td>
+        <td></td>
+        <td>2</td>
+        <td>2024/04/11</td>
+        <td>2023/12/09</td>
+        <td>2024/4/11 21:38:53</td>
+        <td>03:06</td>
+        <td>Deck A</td>
+        <td>yes</td>
+      </tr>
+    </table>
+  </body>
+
+</html>
