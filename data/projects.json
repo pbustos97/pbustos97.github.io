@@ -1,0 +1,195 @@
+{
+  "projects": [
+    {
+      "name": "pbustos97.github.io",
+      "description": "Personal website hosting DJ mixes and portfolio",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "url": "https://github.com/pbustos97/pbustos97.github.io",
+      "updatedAt": "2026-04-24",
+      "featured": false
+    },
+    {
+      "name": "dotfiles",
+      "description": "Linux dotfiles for development environment configuration",
+      "language": "Shell",
+      "stars": 0,
+      "forks": 0,
+      "url": "https://github.com/pbustos97/dotfiles",
+      "updatedAt": "2026-04-12",
+      "featured": false
+    },
+    {
+      "name": "Arduino-Prototyping",
+      "description": "Arduino modules and prototyping code for hardware projects",
+      "language": "C++",
+      "stars": 0,
+      "forks": 0,
+      "url": "https://github.com/pbustos97/Arduino-Prototyping",
+      "updatedAt": "2023-03-10"
+    },
+    {
+      "name": "Twitch_To_Discord_Notifications",
+      "description": "Gets a user's follow list and sends Discord messages when someone goes live on Twitch",
+      "language": "Python",
+      "stars": 1,
+      "forks": 1,
+      "url": "https://github.com/pbustos97/Twitch_To_Discord_Notifications",
+      "updatedAt": "2021-03-30"
+    },
+    {
+      "name": "Subreddit-Tracker",
+      "description": "Discord and Reddit bot that tracks specific subreddits and user flairs",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "url": "https://github.com/pbustos97/Subreddit-Tracker",
+      "updatedAt": "2022-01-01"
+    },
+    {
+      "name": "yeet_bot",
+      "description": "Discord bot with various utility commands",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "url": "https://github.com/pbustos97/yeet_bot",
+      "updatedAt": "2022-01-01"
+    },
+    {
+      "name": "CMPE_277_Hackathon",
+      "description": "Hackathon project for CMPE 277 course",
+      "language": "Java",
+      "stars": 0,
+      "forks": 1,
+      "url": "https://github.com/pbustos97/CMPE_277_Hackathon",
+      "updatedAt": "2022-04-24"
+    },
+    {
+      "name": "cmpe282_vet_services",
+      "description": "Veterinary services backend project",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "url": "https://github.com/pbustos97/cmpe282_vet_services",
+      "updatedAt": "2022-05-12"
+    },
+    {
+      "name": "cmpe_277_project",
+      "description": "CMPE 277 course project",
+      "language": "Java",
+      "stars": 0,
+      "forks": 0,
+      "url": "https://github.com/pbustos97/cmpe_277_project",
+      "updatedAt": "2022-05-12"
+    },
+    {
+      "name": "CHIP-8-Interpreter",
+      "description": "CHIP-8 emulator interpreter",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "url": "https://github.com/pbustos97/CHIP-8-Interpreter",
+      "updatedAt": "2021-12-07"
+    },
+    {
+      "name": "CMPE-281-Project-2",
+      "description": "CMPE 281 cloud computing project",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "url": "https://github.com/pbustos97/CMPE-281-Project-2",
+      "updatedAt": "2021-11-24"
+    },
+    {
+      "name": "CMPE-281-Project-1",
+      "description": "CMPE 281 first project",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "url": "https://github.com/pbustos97/CMPE-281-Project-1",
+      "updatedAt": "2021-10-21"
+    },
+    {
+      "name": "CMPE-272-Twitter",
+      "description": "Twitter analytics project for CMPE 272",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "url": "https://github.com/pbustos97/CMPE-272-Twitter",
+      "updatedAt": "2021-09-27"
+    },
+    {
+      "name": "CMPE-272-Ansible",
+      "description": "Ansible configuration for CMPE 272",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "url": "https://github.com/pbustos97/CMPE-272-Ansible",
+      "updatedAt": "2021-09-01"
+    },
+    {
+      "name": "linux",
+      "description": "Linux kernel source tree (forked)",
+      "language": "C",
+      "stars": 0,
+      "forks": 0,
+      "url": "https://github.com/pbustos97/linux",
+      "updatedAt": "2021-12-03"
+    },
+    {
+      "name": "xenia",
+      "description": "Xbox 360 emulator research project (forked)",
+      "language": "C++",
+      "stars": 0,
+      "forks": 0,
+      "url": "https://github.com/pbustos97/xenia",
+      "updatedAt": "2021-11-23"
+    },
+    {
+      "name": "friendly_fire_bot",
+      "description": "Python Discord bot",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "url": "https://github.com/pbustos97/friendly_fire_bot",
+      "updatedAt": "2020-10-06"
+    },
+    {
+      "name": "MCCFileCopier",
+      "description": "File copying utility (forked)",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "url": "https://github.com/pbustos97/MCCFileCopier",
+      "updatedAt": "2019-12-19"
+    },
+    {
+      "name": "Epic_Bot",
+      "description": "Dynamic command Discord bot",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "url": "https://github.com/pbustos97/Epic_Bot",
+      "updatedAt": "2019-10-30"
+    },
+    {
+      "name": "Python_MasterPassword",
+      "description": "MasterPassword clone written in Python",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "url": "https://github.com/pbustos97/Python_MasterPassword",
+      "updatedAt": "2019-10-29"
+    },
+    {
+      "name": "PUBG_Drop_Bot",
+      "description": "Discord bot for random PUBG drop locations",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "url": "https://github.com/pbustos97/PUBG_Drop_Bot",
+      "updatedAt": "2018-04-11"
+    }
+  ]
+}

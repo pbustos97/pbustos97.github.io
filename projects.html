@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Projects by Patrick Bustos - GitHub repositories and open source work.">
+  <title>Projects | Patrick Bustos</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎵</text></svg>">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">Patrick Bustos</a>
+      <nav>
+        <a href="index.html">Sessions</a>
+        <a href="mixes.html">Mixes</a>
+        <a href="projects.html" class="active">Projects</a>
+        <a href="about.html">About</a>
+        <a href="https://github.com/pbustos97" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container">
+    <section class="hero">
+      <h1>Projects</h1>
+      <p>Open source repositories and side projects from GitHub.</p>
+    </section>
+
+    <main>
+      <div class="section-header">
+        <h2>Repositories <span class="count"></span></h2>
+        <a href="https://github.com/pbustos97?tab=repositories" target="_blank" rel="noopener noreferrer" class="view-all">View all on GitHub →</a>
+      </div>
+      
+      <div class="filter-bar">
+        <div class="filter-chips" id="filter-chips">
+          <button class="filter-chip active" data-filter="all">All</button>
+        </div>
+        <div class="search-box">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+            <path d="M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.499 4.499 0 1 0-8.997 0A4.499 4.499 0 0 0 11.5 7Z"/>
+          </svg>
+          <input type="text" id="project-search" placeholder="Search projects..." autocomplete="off">
+        </div>
+      </div>
+
+      <div id="projects-grid" class="projects-grid">
+        <div class="project-card skeleton">
+          <div class="skeleton skeleton-title"></div>
+          <div class="skeleton skeleton-text" style="width: 80%;"></div>
+          <div class="skeleton skeleton-text" style="width: 60%;"></div>
+        </div>
+        <div class="project-card skeleton">
+          <div class="skeleton skeleton-title"></div>
+          <div class="skeleton skeleton-text" style="width: 80%;"></div>
+          <div class="skeleton skeleton-text" style="width: 60%;"></div>
+        </div>
+        <div class="project-card skeleton">
+          <div class="skeleton skeleton-title"></div>
+          <div class="skeleton skeleton-text" style="width: 80%;"></div>
+          <div class="skeleton skeleton-text" style="width: 60%;"></div>
+        </div>
+      </div>
+      <div id="projects-error" class="empty-state" style="display: none;">
+        <p>Failed to load projects. Please try again later.</p>
+      </div>
+      <div id="projects-empty" class="empty-state" style="display: none;">
+        <p>No projects match your filter.</p>
+      </div>
+    </main>
+  </div>
+
+  <footer>
+    <div class="container">
+      <a href="index.html">Sessions</a>
+      <a href="mixes.html">Mixes</a>
+      <a href="projects.html">Projects</a>
+      <a href="about.html">About</a>
+      <a href="https://github.com/pbustos97" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+  </footer>
+
+  <script src="js/projects.js"></script>
+</body>
+</html>

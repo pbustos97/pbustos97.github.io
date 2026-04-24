@@ -3,30 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Patrick Bustos - Programmer & DJ</title>
+  <meta name="description" content="Patrick Bustos - Software Engineer and DJ. Sessions, mixes, and projects.">
+  <title>Patrick Bustos | Sessions</title>
   <link rel="stylesheet" href="styles/main.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎵</text></svg>">
+  <link rel="alternate" title="Patrick Bustos RSS Feed" type="application/rss+xml" href="/feed.xml">
 </head>
 <body>
   <header>
     <div class="container">
-      <a href="/" class="logo">Patrick Bustos</a>
+      <a href="index.html" class="logo">Patrick Bustos</a>
       <nav>
-        <a href="index.html">Home</a>
+        <a href="index.html" class="active">Sessions</a>
         <a href="mixes.html">Mixes</a>
+        <a href="projects.html">Projects</a>
         <a href="about.html">About</a>
-        <a href="https://github.com/pbustos97" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://github.com/pbustos97" target="_blank" rel="noopener noreferrer">GitHub</a>
       </nav>
     </div>
   </header>
 
-<div class="container">
+  <div class="container">
     <section class="hero">
       <h1 id="hero-title">Sessions</h1>
       <p id="hero-tagline">Loading...</p>
     </section>
 
     <main id="mixes">
+      <div class="section-header">
+        <h2>Recent Mixes</h2>
+        <a href="mixes.html" class="view-all">View all →</a>
+      </div>
       <div id="mixes-list">
         <div class="empty-state">Loading mixes...</div>
       </div>
@@ -35,10 +42,11 @@
 
   <footer>
     <div class="container">
-      <a href="index.html">Home</a>
+      <a href="index.html">Sessions</a>
       <a href="mixes.html">Mixes</a>
+      <a href="projects.html">Projects</a>
       <a href="about.html">About</a>
-      <a href="https://github.com/pbustos97" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://github.com/pbustos97" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
   </footer>
 
@@ -51,6 +59,7 @@
         document.getElementById('hero-tagline').textContent = data.profile.tagline;
       } catch (error) {
         console.error('Failed to load profile:', error);
+        document.getElementById('hero-tagline').textContent = 'Software Engineer passionate about building tools and crafting sounds.';
       }
     }
     loadHero();
