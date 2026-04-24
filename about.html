@@ -1,16 +1,118 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
-    <title>About Patrick Bustos</title>
-    <a href="https://pbustos97.github.io/">Home</a>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Patrick Bustos</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎵</text></svg>">
 </head>
 <body>
-    <h1>About Me</h1>
-    <p></p>
-    <footer>
-		<a href="about.html">About</a>
-		<a href="https://pbustos97.github.io/">Home</a>
-	</footer>
+  <header>
+    <div class="container">
+      <a href="/" class="logo">Patrick Bustos</a>
+      <nav>
+        <a href="#mixes">Mixes</a>
+        <a href="mixes.html">All Mixes</a>
+        <a href="about.html">About</a>
+        <a href="https://github.com/pbustos97" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container">
+    <section class="hero">
+      <h1>About Me</h1>
+      <p id="profile-tagline">Loading...</p>
+    </section>
+
+    <main id="about-content">
+      <div class="empty-state">Loading...</div>
+    </main>
+  </div>
+
+  <footer>
+    <div class="container">
+      <a href="/">Home</a>
+      <a href="mixes.html">Mixes</a>
+      <a href="about.html">About</a>
+      <a href="https://github.com/pbustos97" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </footer>
+
+  <script>
+    async function loadAbout() {
+      try {
+        const response = await fetch('data/about.json');
+        const data = await response.json();
+        
+        document.getElementById('profile-tagline').textContent = data.profile.tagline;
+        
+        let html = '';
+        
+        html += `
+          <section class="mix-section">
+            <div class="mix-header">
+              <h2>Background</h2>
+            </div>
+            <div class="mix-scroll">
+              <table>
+                <tbody>
+        `;
+        
+        data.background.forEach(item => {
+          html += `
+            <tr>
+              <td><strong>${item.label}</strong></td>
+              <td>${item.value}</td>
+            </tr>
+          `;
+        });
+        
+        html += `
+                </tbody>
+              </table>
+            </div>
+          </section>
+        `;
+        
+        html += `
+          <section class="mix-section">
+            <div class="mix-header">
+              <h2>Contact</h2>
+            </div>
+            <div class="mix-scroll">
+              <table>
+                <tbody>
+        `;
+        
+        data.contact.forEach(item => {
+          const value = item.url 
+            ? `<a href="${item.url}" target="_blank" rel="noopener">${item.value}</a>` 
+            : item.value;
+          html += `
+            <tr>
+              <td><strong>${item.label}</strong></td>
+              <td>${value}</td>
+            </tr>
+          `;
+        });
+        
+        html += `
+                </tbody>
+              </table>
+            </div>
+          </section>
+        `;
+        
+        document.getElementById('about-content').innerHTML = html;
+      } catch (error) {
+        console.error('Failed to load about data:', error);
+        document.getElementById('about-content').innerHTML = '<div class="empty-state">Failed to load content</div>';
+      }
+    }
+    
+    document.addEventListener('DOMContentLoaded', loadAbout);
+  </script>
 </body>
 </html>

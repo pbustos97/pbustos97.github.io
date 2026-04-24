@@ -1,0 +1,40 @@
+{
+  "profile": {
+    "name": "Patrick Bustos",
+    "tagline": "Software Engineer passionate about building tools and crafting sounds. Producer/DJ with a focus on multi-genre sets.",
+    "heroTitle": "Something here"
+  },
+  "background": [
+    {
+      "label": "Location",
+      "value": "San Francisco, CA"
+    },
+    {
+      "label": "Interests",
+      "value": "Building software tools, Computer hardware, Linux and Open Source Software, Music Production/DJing"
+    },
+    {
+      "label": "Skills",
+      "value": "Software Design and Architecture, Cloud Computing, Web Application Development"
+    },
+    {
+        "label": "Programming Langauges",
+        "value": "C, C++, Java, Python, Rust, Bash Scripting, Powershell Scripting"
+    },
+    {
+        "label": "Software Tools",
+        "value": "Ansible, Docker/Rancher, Kubernetes, CLI Coding Agents, Apache Tomcat"
+    }
+  ],
+  "contact": [
+    {
+      "label": "GitHub",
+      "value": "github.com/pbustos97",
+      "url": "https://github.com/pbustos97"
+    },
+    {
+      "label": "Email",
+      "value": "Available on GitHub profile"
+    }
+  ]
+}

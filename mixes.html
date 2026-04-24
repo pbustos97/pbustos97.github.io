@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Patrick Bustos - Programmer & DJ</title>
+  <title>Mixes - Patrick Bustos</title>
   <link rel="stylesheet" href="styles/main.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎵</text></svg>">
 </head>
@@ -20,10 +20,10 @@
     </div>
   </header>
 
-<div class="container">
+  <div class="container">
     <section class="hero">
-      <h1 id="hero-title">Sessions</h1>
-      <p id="hero-tagline">Loading...</p>
+      <h1>Mixes</h1>
+      <p>A collection of DJ mixes and live sets.</p>
     </section>
 
     <main id="mixes">
@@ -35,26 +35,13 @@
 
   <footer>
     <div class="container">
-      <a href="index.html">Home</a>
+      <a href="/">Home</a>
       <a href="mixes.html">Mixes</a>
       <a href="about.html">About</a>
       <a href="https://github.com/pbustos97" target="_blank" rel="noopener">GitHub</a>
     </div>
   </footer>
 
-  <script>
-    async function loadHero() {
-      try {
-        const response = await fetch('data/about.json');
-        const data = await response.json();
-        document.getElementById('hero-title').textContent = data.profile.heroTitle;
-        document.getElementById('hero-tagline').textContent = data.profile.tagline;
-      } catch (error) {
-        console.error('Failed to load profile:', error);
-      }
-    }
-    loadHero();
-  </script>
   <script src="js/main.js"></script>
 </body>
 </html>
