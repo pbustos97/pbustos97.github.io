@@ -1,0 +1,25 @@
+# Lane AI worktrees (agent/session working copies)
+.lane/
+
+# Credentials & secrets
+.env
+.env.*
+*.env
+.envrc
+credentials
+credentials.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+.netrc
+.npmrc
+.pypirc
+secrets.*
+*.secret
