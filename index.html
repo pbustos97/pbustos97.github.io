@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Patrick Bustos - Software Engineer and DJ. Sessions, mixes, and projects.">
-  <title>Patrick Bustos | Sessions</title>
+  <meta name="description" content="Patrick Bustos - Software Engineer and DJ. Mixes, projects, and more.">
+  <title>Patrick Bustos | Home</title>
   <link rel="stylesheet" href="styles/main.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎵</text></svg>">
   <link rel="alternate" title="Patrick Bustos RSS Feed" type="application/rss+xml" href="/feed.xml">
@@ -14,8 +14,18 @@
 
   <div class="container">
     <section class="hero">
-      <h1 id="hero-title">Sessions</h1>
+      <h1 id="hero-title">Home</h1>
       <p id="hero-tagline">Loading...</p>
+    </section>
+
+    <section id="spotlight" class="mix-section">
+      <div class="section-header">
+        <h2>Latest Project</h2>
+        <button id="spotlight-shuffle" class="spotlight-button" type="button">Show another ↻</button>
+      </div>
+      <div id="spotlight-project" aria-live="polite">
+        <div class="empty-state">Loading project...</div>
+      </div>
     </section>
 
     <main id="mixes">
@@ -33,5 +43,6 @@
 
   <script src="js/site.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/home.js"></script>
 </body>
 </html>

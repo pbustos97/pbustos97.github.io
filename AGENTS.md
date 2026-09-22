@@ -8,7 +8,7 @@ Static GitHub Pages personal site (DJ mixes + portfolio). Plain HTML/CSS/JS — 
 
 ```
 /
-├── index.html          # Sessions: hero + 3 recent compact mixes
+├── index.html          # Home: hero + "Latest Project" spotlight + 3 recent compact mixes
 ├── mixes.html          # All mixes with full track tables
 ├── projects.html       # GitHub repo cards (filter + search)
 ├── about.html          # Profile / background / contact
@@ -16,13 +16,13 @@ Static GitHub Pages personal site (DJ mixes + portfolio). Plain HTML/CSS/JS — 
 │   └── main.css        # All styling (CSS custom properties / design tokens)
 ├── js/
 │   ├── site.js         # Shared: runtime-injected header/footer partials,
-│   │                   # fetchJSON helper, profile hero loader
+│   │                   # fetchJSON helper, profile hero loader, getProjects()
 │   ├── main.js         # Mix loading + Traaktor export parsing
+│   ├── home.js         # Home page spotlight rendering
 │   ├── projects.js     # Projects rendering/filtering
 │   └── about.js        # About page rendering
 ├── data/               # JSON "database" — source of truth for content
 │   ├── mixes.json      # Mix metadata
-│   ├── projects.json   # Manual GitHub repo snapshot
 │   └── about.json      # Hero tagline, background, contact
 ├── mixes/2024/         # Traaktor export HTML files (track tables)
 └── stylesheet.css      # Legacy - unused, do not edit
@@ -33,9 +33,9 @@ All four pages share identical header/footer markup, injected at runtime by `js/
 ## Data flow
 
 - `data/mixes.json` — mix metadata only (`id`, `date`, `title`, `description`, `genre`). Tracks are NOT in JSON: `js/main.js` fetches `mixes/2024/<id>.html` and parses `table.border` rows with DOMParser.
-- `data/projects.json` — manual snapshot of GitHub repos (`name`, `description`, `language`, `stars`, `forks`, `updatedAt`, `featured`). The page reads this local file as the offline base + fallback. At runtime, it fetches each repo's latest default-branch commit date from `api.github.com` (`commits?per_page=1`) to show "Last updated", falling back to `updatedAt` when offline/rate-limited. Results are cached in `localStorage` (key `pbustos97.repoLastCommit`) with a 24h TTL to respect the unauthenticated 60 req/hr/IP limit.
+- **Projects come LIVE from the GitHub API**: `https://api.github.com/users/pbustos97/repos?sort=updated&per_page=100&type=owner` (forks excluded via `type=owner`). Results are cached in `localStorage` under key `pbustos97.repos` with shape `{ fetchedAt: number, repos: [...] }` and a 24h TTL. The shared `getProjects()` function in `js/site.js` implements stale-while-revalidate: fresh cache resolves immediately, stale cache resolves immediately then refreshes in background (calling `onRefresh` on success), no cache awaits the fetch (throws on failure for error state). Both `index.html` (spotlight) and `projects.html` use this same endpoint and cache. "Last updated" = `pushed_at` (falling back to `updated_at`). Offline/rate-limited → stale cache served, else error state.
 - `data/about.json` — `profile` (name, tagline, heroTitle), `background[]`, `contact[]`. Feeds the index hero, the about page, and the profile tagline.
-- `js/site.js` — shared header/footer partials + `fetchJSON` wrapper + `loadProfileHero`. Loaded by every page before its page-specific script.
+- `js/site.js` — shared header/footer partials + `fetchJSON` wrapper + `loadProfileHero` + `getProjects()` (shared GitHub repo list fetcher with localStorage cache). Loaded by every page before its page-specific script.
 
 ### Mix rendering modes
 
@@ -52,7 +52,7 @@ All four pages share identical header/footer markup, injected at runtime by `js/
 
 ## Updating projects
 
-Edit `data/projects.json` by hand. `featured: true` adds a badge and sorts first, then stars desc, then `updatedAt`.
+Projects are fetched live from the GitHub API and cached in localStorage. No manual updates needed — the site automatically shows your latest repos. To clear the cache and force a refresh, delete `localStorage.pbustos97.repos` in browser devtools.
 
 ## Testing Locally
 

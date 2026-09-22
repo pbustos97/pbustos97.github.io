@@ -5,7 +5,7 @@
  */
 
 const NAV_LINKS = [
-  { href: 'index.html', label: 'Sessions' },
+  { href: 'index.html', label: 'Home' },
   { href: 'mixes.html', label: 'Mixes' },
   { href: 'projects.html', label: 'Projects' },
   { href: 'about.html', label: 'About' },
@@ -109,6 +109,207 @@ function escapeHtml(value) {
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#39;');
+}
+
+/* ---------------------------------------------------------------------------
+ * Shared GitHub project helpers.
+ * Used by projects.js (projects page) and home.js (landing-page spotlight).
+ * Fetches full repo list from GitHub API with 24h localStorage cache.
+ * ------------------------------------------------------------------------- */
+
+const GITHUB_REPOS_URL = 'https://api.github.com/users/pbustos97/repos?sort=updated&per_page=100&type=owner';
+const CACHE_KEY = 'pbustos97.repos';
+const CACHE_TTL_MS = 24 * 60 * 60 * 1000; // 24 hours
+
+/**
+ * Language colors mapping (matching GitHub's color scheme)
+ */
+const languageColors = {
+  JavaScript: '#f1e05a',
+  TypeScript: '#3178c6',
+  Python: '#3572A5',
+  Java: '#b07219',
+  Go: '#00ADD8',
+  Rust: '#dea584',
+  C: '#555555',
+  'C++': '#f34b7d',
+  'C#': '#178600',
+  Ruby: '#701516',
+  PHP: '#4F5D95',
+  Swift: '#F05138',
+  Kotlin: '#A97BFF',
+  Shell: '#89e051',
+  HTML: '#e34c26',
+  CSS: '#563d7c',
+  Vue: '#41b883',
+  SCSS: '#c6538c',
+  Other: '#8b949e'
+};
+
+/**
+ * Get language color
+ */
+function getLanguageColor(language) {
+  return languageColors[language] || '#8b949e';
+}
+
+/**
+ * Format count for display
+ */
+function formatCount(count) {
+  if (count >= 1000000) {
+    return (count / 1000000).toFixed(1) + 'M';
+  }
+  if (count >= 1000) {
+    return (count / 1000).toFixed(1) + 'K';
+  }
+  return count.toString();
+}
+
+/**
+ * Read the localStorage cache for repos.
+ * Returns null if localStorage is unavailable or cache is corrupt/missing.
+ */
+function readCache() {
+  try {
+    const raw = localStorage.getItem(CACHE_KEY);
+    if (!raw) return null;
+    const parsed = JSON.parse(raw);
+    if (!parsed || !Array.isArray(parsed.repos)) return null;
+    return parsed;
+  } catch (e) {
+    return null;
+  }
+}
+
+/**
+ * Write the repos cache to localStorage. Silently fails if storage is unavailable.
+ */
+function writeCache(cache) {
+  try {
+    localStorage.setItem(CACHE_KEY, JSON.stringify(cache));
+  } catch (e) {
+    // Ignore — private browsing or quota exceeded
+  }
+}
+
+/**
+ * Check if a cache entry is still fresh (within TTL).
+ */
+function isCacheFresh(cache) {
+  return cache && cache.fetchedAt && (Date.now() - cache.fetchedAt < CACHE_TTL_MS);
+}
+
+/**
+ * Format an ISO date string for display.
+ */
+function formatDate(isoString) {
+  if (!isoString) return '';
+  const date = new Date(isoString);
+  if (Number.isNaN(date.getTime())) return isoString;
+  return date.toLocaleDateString('en-US', { year: 'numeric', month: 'short' });
+}
+
+/**
+ * Fetch the full repo list from GitHub API, following Link header pagination.
+ * Returns transformed array of { name, description, language, stars, forks, url, updatedAt }.
+ */
+async function fetchReposFromGitHub() {
+  const repos = [];
+  let url = GITHUB_REPOS_URL;
+  let pageCount = 0;
+  const MAX_PAGES = 5;
+
+  while (url && pageCount < MAX_PAGES) {
+    const response = await fetch(url, {
+      headers: { Accept: 'application/vnd.github+json' }
+    });
+
+    if (!response.ok) {
+      throw new Error(`GitHub API error: HTTP ${response.status}`);
+    }
+
+    const pageRepos = await response.json();
+    if (!Array.isArray(pageRepos) || pageRepos.length === 0) break;
+
+    // Transform each repo
+    for (const repo of pageRepos) {
+      repos.push({
+        name: repo.name,
+        description: repo.description, // may be null
+        language: repo.language,
+        stars: repo.stargazers_count || 0,
+        forks: repo.forks_count || 0,
+        url: repo.html_url,
+        updatedAt: repo.pushed_at || repo.updated_at
+      });
+    }
+
+    // Parse Link header for next page
+    const linkHeader = response.headers.get('Link');
+    url = parseLinkHeader(linkHeader);
+    pageCount++;
+  }
+
+  return repos;
+}
+
+/**
+ * Parse Link header to extract the 'next' URL.
+ * Returns null if no next link found.
+ */
+function parseLinkHeader(linkHeader) {
+  if (!linkHeader) return null;
+  const links = linkHeader.split(',');
+  for (const link of links) {
+    const match = link.match(/<([^>]+)>\s*;\s*rel="next"/);
+    if (match) return match[1];
+  }
+  return null;
+}
+
+/**
+ * Shared async function to get projects with stale-while-revalidate behavior.
+ * - Fresh cache → resolve immediately with cached repos (no network)
+ * - Stale cache → resolve immediately with stale repos, then fetch in background;
+ *   on success write cache and call onRefresh(freshRepos); on failure keep stale silently
+ * - No cache → await the fetch; on failure THROW so callers can show error state
+ *
+ * @param {Object} options
+ * @param {Function} [options.onRefresh] - callback invoked with fresh repos after background refresh
+ * @returns {Promise<Array>} - resolves with repos (cached or fresh)
+ */
+async function getProjects({ onRefresh } = {}) {
+  const cache = readCache();
+
+  // Fresh cache → resolve immediately
+  if (cache && isCacheFresh(cache)) {
+    return cache.repos;
+  }
+
+  // Stale cache → resolve immediately with stale, then refresh in background
+  if (cache) {
+    // Fire and forget background refresh
+    fetchReposFromGitHub()
+      .then(freshRepos => {
+        const newCache = { fetchedAt: Date.now(), repos: freshRepos };
+        writeCache(newCache);
+        if (typeof onRefresh === 'function') {
+          onRefresh(freshRepos);
+        }
+      })
+      .catch(error => {
+        // Keep stale silently
+        console.warn('Background refresh failed, keeping stale cache:', error.message);
+      });
+    return cache.repos;
+  }
+
+  // No cache → await the fetch
+  const repos = await fetchReposFromGitHub();
+  const newCache = { fetchedAt: Date.now(), repos };
+  writeCache(newCache);
+  return repos;
 }
 
 /**
