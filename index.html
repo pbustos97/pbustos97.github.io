@@ -10,18 +10,7 @@
   <link rel="alternate" title="Patrick Bustos RSS Feed" type="application/rss+xml" href="/feed.xml">
 </head>
 <body>
-  <header>
-    <div class="container">
-      <a href="index.html" class="logo">Patrick Bustos</a>
-      <nav>
-        <a href="index.html" class="active">Sessions</a>
-        <a href="mixes.html">Mixes</a>
-        <a href="projects.html">Projects</a>
-        <a href="about.html">About</a>
-        <a href="https://github.com/pbustos97" target="_blank" rel="noopener noreferrer">GitHub</a>
-      </nav>
-    </div>
-  </header>
+  <div data-partial="header"></div>
 
   <div class="container">
     <section class="hero">
@@ -34,36 +23,15 @@
         <h2>Recent Mixes</h2>
         <a href="mixes.html" class="view-all">View all →</a>
       </div>
-      <div id="mixes-list">
+      <div id="mixes-list" data-limit="3">
         <div class="empty-state">Loading mixes...</div>
       </div>
     </main>
   </div>
 
-  <footer>
-    <div class="container">
-      <a href="index.html">Sessions</a>
-      <a href="mixes.html">Mixes</a>
-      <a href="projects.html">Projects</a>
-      <a href="about.html">About</a>
-      <a href="https://github.com/pbustos97" target="_blank" rel="noopener noreferrer">GitHub</a>
-    </div>
-  </footer>
+  <div data-partial="footer"></div>
 
-  <script>
-    async function loadHero() {
-      try {
-        const response = await fetch('data/about.json');
-        const data = await response.json();
-        document.getElementById('hero-title').textContent = data.profile.heroTitle;
-        document.getElementById('hero-tagline').textContent = data.profile.tagline;
-      } catch (error) {
-        console.error('Failed to load profile:', error);
-        document.getElementById('hero-tagline').textContent = 'Software Engineer passionate about building tools and crafting sounds.';
-      }
-    }
-    loadHero();
-  </script>
+  <script src="js/site.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
