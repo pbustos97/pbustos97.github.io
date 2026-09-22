@@ -1,4 +1,12 @@
-const GITHUB_USERNAME = 'pbustos97';
+/**
+ * Projects page: render GitHub repo cards from data/projects.json.
+ * Uses shared fetchJSON from site.js.
+ * Fetches live last-commit dates from GitHub API with localStorage cache.
+ */
+
+const GITHUB_API_BASE = 'https://api.github.com/repos/pbustos97';
+const CACHE_KEY = 'pbustos97.repoLastCommit';
+const CACHE_TTL_MS = 24 * 60 * 60 * 1000; // 24 hours
 
 /**
  * Language colors mapping (matching GitHub's color scheme)
@@ -29,25 +37,7 @@ const languageColors = {
 let allProjects = [];
 let currentFilter = 'all';
 let currentSearch = '';
-
-/**
- * Fetch repositories from local data file
- */
-async function fetchRepositories() {
-  try {
-    const response = await fetch('data/projects.json');
-    
-    if (!response.ok) {
-      throw new Error(`HTTP error: ${response.status}`);
-    }
-    
-    const data = await response.json();
-    return data.projects || [];
-  } catch (error) {
-    console.error('Failed to fetch projects:', error);
-    throw error;
-  }
-}
+let currentRenderedProjects = [];
 
 /**
  * Format count for display
@@ -70,43 +60,167 @@ function getLanguageColor(language) {
 }
 
 /**
+ * Read the localStorage cache for repo commit dates.
+ * Returns an empty object if localStorage is unavailable or cache is corrupt.
+ */
+function readCache() {
+  try {
+    const raw = localStorage.getItem(CACHE_KEY);
+    if (!raw) return {};
+    return JSON.parse(raw);
+  } catch (e) {
+    return {};
+  }
+}
+
+/**
+ * Write the cache to localStorage. Silently fails if storage is unavailable.
+ */
+function writeCache(cache) {
+  try {
+    localStorage.setItem(CACHE_KEY, JSON.stringify(cache));
+  } catch (e) {
+    // Ignore — private browsing or quota exceeded
+  }
+}
+
+/**
+ * Check if a cache entry is still fresh (within TTL).
+ */
+function isCacheFresh(entry) {
+  return entry && entry.fetchedAt && (Date.now() - entry.fetchedAt < CACHE_TTL_MS);
+}
+
+/**
+ * Resolve the display date for a repo: cache (if fresh) → repo.updatedAt fallback.
+ * Returns a formatted date string or empty string.
+ */
+function resolveDate(repo, cache) {
+  const cached = cache[repo.name];
+  const isoString = (cached && isCacheFresh(cached)) ? cached.date : repo.updatedAt;
+  return formatDate(isoString);
+}
+
+/**
+ * Format an ISO date string for display.
+ */
+function formatDate(isoString) {
+  if (!isoString) return '';
+  const date = new Date(isoString);
+  if (Number.isNaN(date.getTime())) return isoString;
+  return date.toLocaleDateString('en-US', { year: 'numeric', month: 'short' });
+}
+
+/**
+ * Fetch the latest commit date for a repo from GitHub API.
+ * Returns { date: ISO string, rateLimitRemaining: string } or throws.
+ */
+async function fetchLastCommitDate(repoName) {
+  const url = `${GITHUB_API_BASE}/${encodeURIComponent(repoName)}/commits?per_page=1`;
+  const response = await fetch(url, {
+    headers: { Accept: 'application/vnd.github+json' }
+  });
+
+  if (!response.ok) {
+    throw new Error(`HTTP ${response.status}`);
+  }
+
+  const rateLimitRemaining = response.headers.get('X-RateLimit-Remaining');
+  const json = await response.json();
+
+  if (!json || json.length === 0) {
+    throw new Error('No commits found');
+  }
+
+  const date = json[0].commit.committer.date;
+  if (!date) throw new Error('No commit date found');
+  return { date, rateLimitRemaining };
+}
+
+/**
+ * Refresh repo dates from GitHub API, updating the DOM in place.
+ * Fetches sequentially, stops on rate limit (0 remaining or 403/429).
+ */
+async function refreshRepoDates() {
+  const cache = readCache();
+  let rateLimitWarningShown = false;
+
+  for (let i = 0; i < currentRenderedProjects.length; i++) {
+    const repo = currentRenderedProjects[i];
+    const cached = cache[repo.name];
+
+    // Skip if cache is fresh
+    if (cached && isCacheFresh(cached)) {
+      continue;
+    }
+
+    try {
+      const { date, rateLimitRemaining } = await fetchLastCommitDate(repo.name);
+
+      // Update cache
+      cache[repo.name] = { date, fetchedAt: Date.now() };
+      writeCache(cache);
+
+      // Update DOM in place (skip silently if repo is filtered out)
+      const escapedName = escapeHtml(repo.name);
+      const span = document.querySelector(`[data-repo-name="${escapedName}"] .updated-date`);
+      if (span) {
+        span.textContent = formatDate(date);
+      }
+
+      // Check rate limit
+      if (rateLimitRemaining === '0') {
+        if (!rateLimitWarningShown) {
+          console.warn('GitHub API rate limit reached. Stopping date refresh.');
+          rateLimitWarningShown = true;
+        }
+        break;
+      }
+    } catch (error) {
+      // On 403/429, stop the loop
+      if (error.message.includes('403') || error.message.includes('429')) {
+        if (!rateLimitWarningShown) {
+          console.warn('GitHub API rate limit reached. Stopping date refresh.');
+          rateLimitWarningShown = true;
+        }
+        break;
+      }
+      // Other errors: keep fallback date, continue to next repo
+      console.error(`Failed to fetch date for ${repo.name}:`, error.message);
+    }
+  }
+}
+
+/**
  * Render a single project card
  */
-function renderProjectCard(repo, index) {
+function renderProjectCard(repo, index, resolvedDate) {
   const languageColor = getLanguageColor(repo.language);
   const description = repo.description || 'No description available';
   const isFeatured = repo.featured === true;
-  
-  let updatedDate = '';
-  if (repo.updatedAt) {
-    try {
-      updatedDate = new Date(repo.updatedAt).toLocaleDateString('en-US', {
-        year: 'numeric',
-        month: 'short'
-      });
-    } catch (e) {
-      updatedDate = repo.updatedAt;
-    }
-  }
-  
+
   const cardClass = `project-card${isFeatured ? ' featured' : ''}`;
   const delay = Math.min(index * 0.05, 0.3);
-  
+
+  const safeName = escapeHtml(repo.name);
+  const safeDescription = escapeHtml(description);
+  const safeLanguage = escapeHtml(repo.language) || 'Unknown';
+
   return `
     <article class="${cardClass}" style="animation-delay: ${delay}s">
       ${isFeatured ? '<span class="featured-badge">Featured</span>' : ''}
       <div class="project-card-header">
-        <a href="${repo.url}" target="_blank" rel="noopener noreferrer" class="project-name">
-          ${repo.name}
+        <a href="${escapeHtml(repo.url)}" target="_blank" rel="noopener noreferrer" class="project-name">
+          ${safeName}
         </a>
         ${repo.language ? `
           <span class="project-language">
             <span class="language-dot" style="background: ${languageColor}"></span>
-            ${repo.language}
+            ${safeLanguage}
           </span>
-        ` : '<span class="project-language"><span class="language-dot" style="background: #8b949e"></span>Unknown</span>'}
+        ` : `<span class="project-language"><span class="language-dot" style="background: #8b949e"></span>${safeLanguage}</span>`}
       </div>
-      <p class="project-description">${description}</p>
+      <p class="project-description">${safeDescription}</p>
       <div class="project-stats">
         <span class="star" title="Stars">
           <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor">
@@ -120,12 +234,12 @@ function renderProjectCard(repo, index) {
           </svg>
           ${formatCount(repo.forks)}
         </span>
-        ${updatedDate ? `
-        <span class="updated" title="Last updated">
+        ${resolvedDate ? `
+        <span class="updated" title="Last updated" data-repo-name="${safeName}">
           <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor">
             <path d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1ZM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm6.5-.25A.75.75 0 0 1 8 4.75v5.5a.75.75 0 0 1-1.5 0v-5.5Zm.75-2.75a.75.75 0 0 0-1.5 0v.01a.75.75 0 0 0 1.5 0Z"/>
           </svg>
-          ${updatedDate}
+          <span class="updated-date">${escapeHtml(resolvedDate)}</span>
         </span>
         ` : ''}
       </div>
@@ -138,12 +252,10 @@ function renderProjectCard(repo, index) {
  */
 function filterProjects(projects) {
   return projects.filter(repo => {
-    // Filter by language
     if (currentFilter !== 'all' && repo.language !== currentFilter) {
       return false;
     }
-    
-    // Filter by search query
+
     if (currentSearch) {
       const query = currentSearch.toLowerCase();
       const nameMatch = repo.name.toLowerCase().includes(query);
@@ -153,7 +265,7 @@ function filterProjects(projects) {
         return false;
       }
     }
-    
+
     return true;
   });
 }
@@ -177,15 +289,15 @@ function renderProjects(projects) {
   const container = document.getElementById('projects-grid');
   const emptyContainer = document.getElementById('projects-empty');
   const errorContainer = document.getElementById('projects-error');
-  
+
   if (!container) return;
-  
+
   // Update count
   const sectionHeader = document.querySelector('.section-header .count');
   if (sectionHeader) {
     sectionHeader.textContent = `(${projects.length})`;
   }
-  
+
   if (projects.length === 0 && allProjects.length > 0) {
     container.style.display = 'none';
     if (emptyContainer) {
@@ -196,11 +308,11 @@ function renderProjects(projects) {
     }
     return;
   }
-  
+
   if (allProjects.length === 0) {
     return;
   }
-  
+
   container.style.display = 'grid';
   if (emptyContainer) {
     emptyContainer.style.display = 'none';
@@ -208,18 +320,25 @@ function renderProjects(projects) {
   if (errorContainer) {
     errorContainer.style.display = 'none';
   }
-  
+
   const sortedProjects = sortProjects(projects);
-  container.innerHTML = sortedProjects.map((repo, index) => renderProjectCard(repo, index)).join('');
+  const cache = readCache();
+  container.innerHTML = sortedProjects
+    .map((repo, index) => renderProjectCard(repo, index, resolveDate(repo, cache)))
+    .join('');
+
+  // Store for later refresh
+  currentRenderedProjects = sortedProjects;
 }
 
 /**
- * Update available filter chips based on loaded projects
+ * Update available filter chips based on loaded projects.
+ * Event delegation on #filter-chips handles clicks — no per-chip binding.
  */
 function updateFilterChips(projects) {
   const chipContainer = document.getElementById('filter-chips');
   if (!chipContainer) return;
-  
+
   // Get unique languages
   const languages = new Set();
   projects.forEach(repo => {
@@ -227,7 +346,7 @@ function updateFilterChips(projects) {
       languages.add(repo.language);
     }
   });
-  
+
   // Sort languages by count
   const langCounts = {};
   projects.forEach(repo => {
@@ -235,16 +354,16 @@ function updateFilterChips(projects) {
       langCounts[repo.language] = (langCounts[repo.language] || 0) + 1;
     }
   });
-  
-  const sortedLangs = Array.from(languages).sort((a, b) => 
+
+  const sortedLangs = Array.from(languages).sort((a, b) =>
     (langCounts[b] || 0) - (langCounts[a] || 0)
   );
-  
-  // Rebuild chips (keep "All" as first)
+
+  // Preserve the "All" chip as the first chip.
   const allChip = chipContainer.querySelector('[data-filter="all"]');
   chipContainer.innerHTML = '';
-  chipContainer.appendChild(allChip);
-  
+  if (allChip) chipContainer.appendChild(allChip);
+
   sortedLangs.forEach(lang => {
     const chip = document.createElement('button');
     chip.className = 'filter-chip';
@@ -252,27 +371,38 @@ function updateFilterChips(projects) {
     chip.textContent = `${lang} (${langCounts[lang]})`;
     chipContainer.appendChild(chip);
   });
-  
-  // Reattach event listeners
-  attachChipListeners();
+
+  // Restore active state after rebuild.
+  syncActiveChip();
 }
 
 /**
- * Attach filter chip click handlers
+ * Sync the active class on the chip matching currentFilter.
+ */
+function syncActiveChip() {
+  const chipContainer = document.getElementById('filter-chips');
+  if (!chipContainer) return;
+  chipContainer.querySelectorAll('.filter-chip').forEach(chip => {
+    chip.classList.toggle('active', chip.dataset.filter === currentFilter);
+  });
+}
+
+/**
+ * Attach filter chip click handler via event delegation on the container.
+ * Called once during init.
  */
 function attachChipListeners() {
-  const chips = document.querySelectorAll('.filter-chip');
-  chips.forEach(chip => {
-    chip.addEventListener('click', () => {
-      // Update active state
-      chips.forEach(c => c.classList.remove('active'));
-      chip.classList.add('active');
-      
-      // Update filter and re-render
-      currentFilter = chip.dataset.filter;
-      const filtered = filterProjects(allProjects);
-      renderProjects(filtered);
-    });
+  const chipContainer = document.getElementById('filter-chips');
+  if (!chipContainer) return;
+
+  chipContainer.addEventListener('click', (event) => {
+    const chip = event.target.closest('.filter-chip');
+    if (!chip || !chipContainer.contains(chip)) return;
+
+    currentFilter = chip.dataset.filter;
+    syncActiveChip();
+    const filtered = filterProjects(allProjects);
+    renderProjects(filtered);
   });
 }
 
@@ -282,13 +412,13 @@ function attachChipListeners() {
 function attachSearchHandler() {
   const searchInput = document.getElementById('project-search');
   if (!searchInput) return;
-  
+
   searchInput.addEventListener('input', (e) => {
     currentSearch = e.target.value;
     const filtered = filterProjects(allProjects);
     renderProjects(filtered);
   });
-  
+
   searchInput.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
       searchInput.value = '';
@@ -306,15 +436,15 @@ function showError() {
   const container = document.getElementById('projects-grid');
   const errorContainer = document.getElementById('projects-error');
   const emptyContainer = document.getElementById('projects-empty');
-  
+
   if (container) {
     container.style.display = 'none';
   }
-  
+
   if (errorContainer) {
     errorContainer.style.display = 'block';
   }
-  
+
   if (emptyContainer) {
     emptyContainer.style.display = 'none';
   }
@@ -327,20 +457,24 @@ async function initProjects() {
   const container = document.getElementById('projects-grid');
   const chipContainer = document.getElementById('filter-chips');
   if (!container) return;
-  
+
   try {
-    allProjects = await fetchRepositories();
+    const data = await fetchJSON('data/projects.json');
+    allProjects = data.projects || [];
     renderProjects(allProjects);
-    
-    // Initialize filter chips
+
+    // Initialize filter chips + single delegated listener.
     if (chipContainer) {
       updateFilterChips(allProjects);
       attachChipListeners();
     }
-    
+
     // Initialize search
     attachSearchHandler();
-    
+
+    // Refresh dates from GitHub API (non-blocking)
+    refreshRepoDates();
+
   } catch (error) {
     console.error('Failed to load projects:', error);
     showError();
