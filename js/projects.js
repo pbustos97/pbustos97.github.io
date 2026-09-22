@@ -1,214 +1,28 @@
 /**
- * Projects page: render GitHub repo cards from data/projects.json.
- * Uses shared fetchJSON from site.js.
- * Fetches live last-commit dates from GitHub API with localStorage cache.
+ * Projects page: render GitHub repo cards from live GitHub API via shared getProjects().
+ * Uses shared helpers (language colors, formatDate) from site.js.
  */
-
-const GITHUB_API_BASE = 'https://api.github.com/repos/pbustos97';
-const CACHE_KEY = 'pbustos97.repoLastCommit';
-const CACHE_TTL_MS = 24 * 60 * 60 * 1000; // 24 hours
-
-/**
- * Language colors mapping (matching GitHub's color scheme)
- */
-const languageColors = {
-  JavaScript: '#f1e05a',
-  TypeScript: '#3178c6',
-  Python: '#3572A5',
-  Java: '#b07219',
-  Go: '#00ADD8',
-  Rust: '#dea584',
-  C: '#555555',
-  'C++': '#f34b7d',
-  'C#': '#178600',
-  Ruby: '#701516',
-  PHP: '#4F5D95',
-  Swift: '#F05138',
-  Kotlin: '#A97BFF',
-  Shell: '#89e051',
-  HTML: '#e34c26',
-  CSS: '#563d7c',
-  Vue: '#41b883',
-  SCSS: '#c6538c',
-  Other: '#8b949e'
-};
 
 // Global state
 let allProjects = [];
 let currentFilter = 'all';
 let currentSearch = '';
-let currentRenderedProjects = [];
-
-/**
- * Format count for display
- */
-function formatCount(count) {
-  if (count >= 1000000) {
-    return (count / 1000000).toFixed(1) + 'M';
-  }
-  if (count >= 1000) {
-    return (count / 1000).toFixed(1) + 'K';
-  }
-  return count.toString();
-}
-
-/**
- * Get language color
- */
-function getLanguageColor(language) {
-  return languageColors[language] || '#8b949e';
-}
-
-/**
- * Read the localStorage cache for repo commit dates.
- * Returns an empty object if localStorage is unavailable or cache is corrupt.
- */
-function readCache() {
-  try {
-    const raw = localStorage.getItem(CACHE_KEY);
-    if (!raw) return {};
-    return JSON.parse(raw);
-  } catch (e) {
-    return {};
-  }
-}
-
-/**
- * Write the cache to localStorage. Silently fails if storage is unavailable.
- */
-function writeCache(cache) {
-  try {
-    localStorage.setItem(CACHE_KEY, JSON.stringify(cache));
-  } catch (e) {
-    // Ignore — private browsing or quota exceeded
-  }
-}
-
-/**
- * Check if a cache entry is still fresh (within TTL).
- */
-function isCacheFresh(entry) {
-  return entry && entry.fetchedAt && (Date.now() - entry.fetchedAt < CACHE_TTL_MS);
-}
-
-/**
- * Resolve the display date for a repo: cache (if fresh) → repo.updatedAt fallback.
- * Returns a formatted date string or empty string.
- */
-function resolveDate(repo, cache) {
-  const cached = cache[repo.name];
-  const isoString = (cached && isCacheFresh(cached)) ? cached.date : repo.updatedAt;
-  return formatDate(isoString);
-}
-
-/**
- * Format an ISO date string for display.
- */
-function formatDate(isoString) {
-  if (!isoString) return '';
-  const date = new Date(isoString);
-  if (Number.isNaN(date.getTime())) return isoString;
-  return date.toLocaleDateString('en-US', { year: 'numeric', month: 'short' });
-}
-
-/**
- * Fetch the latest commit date for a repo from GitHub API.
- * Returns { date: ISO string, rateLimitRemaining: string } or throws.
- */
-async function fetchLastCommitDate(repoName) {
-  const url = `${GITHUB_API_BASE}/${encodeURIComponent(repoName)}/commits?per_page=1`;
-  const response = await fetch(url, {
-    headers: { Accept: 'application/vnd.github+json' }
-  });
-
-  if (!response.ok) {
-    throw new Error(`HTTP ${response.status}`);
-  }
-
-  const rateLimitRemaining = response.headers.get('X-RateLimit-Remaining');
-  const json = await response.json();
-
-  if (!json || json.length === 0) {
-    throw new Error('No commits found');
-  }
-
-  const date = json[0].commit.committer.date;
-  if (!date) throw new Error('No commit date found');
-  return { date, rateLimitRemaining };
-}
-
-/**
- * Refresh repo dates from GitHub API, updating the DOM in place.
- * Fetches sequentially, stops on rate limit (0 remaining or 403/429).
- */
-async function refreshRepoDates() {
-  const cache = readCache();
-  let rateLimitWarningShown = false;
-
-  for (let i = 0; i < currentRenderedProjects.length; i++) {
-    const repo = currentRenderedProjects[i];
-    const cached = cache[repo.name];
-
-    // Skip if cache is fresh
-    if (cached && isCacheFresh(cached)) {
-      continue;
-    }
-
-    try {
-      const { date, rateLimitRemaining } = await fetchLastCommitDate(repo.name);
-
-      // Update cache
-      cache[repo.name] = { date, fetchedAt: Date.now() };
-      writeCache(cache);
-
-      // Update DOM in place (skip silently if repo is filtered out)
-      const escapedName = escapeHtml(repo.name);
-      const span = document.querySelector(`[data-repo-name="${escapedName}"] .updated-date`);
-      if (span) {
-        span.textContent = formatDate(date);
-      }
-
-      // Check rate limit
-      if (rateLimitRemaining === '0') {
-        if (!rateLimitWarningShown) {
-          console.warn('GitHub API rate limit reached. Stopping date refresh.');
-          rateLimitWarningShown = true;
-        }
-        break;
-      }
-    } catch (error) {
-      // On 403/429, stop the loop
-      if (error.message.includes('403') || error.message.includes('429')) {
-        if (!rateLimitWarningShown) {
-          console.warn('GitHub API rate limit reached. Stopping date refresh.');
-          rateLimitWarningShown = true;
-        }
-        break;
-      }
-      // Other errors: keep fallback date, continue to next repo
-      console.error(`Failed to fetch date for ${repo.name}:`, error.message);
-    }
-  }
-}
 
 /**
  * Render a single project card
  */
-function renderProjectCard(repo, index, resolvedDate) {
+function renderProjectCard(repo, index) {
   const languageColor = getLanguageColor(repo.language);
   const description = repo.description || 'No description available';
-  const isFeatured = repo.featured === true;
-
-  const cardClass = `project-card${isFeatured ? ' featured' : ''}`;
   const delay = Math.min(index * 0.05, 0.3);
 
   const safeName = escapeHtml(repo.name);
   const safeDescription = escapeHtml(description);
   const safeLanguage = escapeHtml(repo.language) || 'Unknown';
+  const resolvedDate = formatDate(repo.updatedAt);
 
   return `
-    <article class="${cardClass}" style="animation-delay: ${delay}s">
-      ${isFeatured ? '<span class="featured-badge">Featured</span>' : ''}
+    <article class="project-card" style="animation-delay: ${delay}s">
       <div class="project-card-header">
         <a href="${escapeHtml(repo.url)}" target="_blank" rel="noopener noreferrer" class="project-name">
           ${safeName}
@@ -235,7 +49,7 @@ function renderProjectCard(repo, index, resolvedDate) {
           ${formatCount(repo.forks)}
         </span>
         ${resolvedDate ? `
-        <span class="updated" title="Last updated" data-repo-name="${safeName}">
+        <span class="updated" title="Last updated">
           <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor">
             <path d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1ZM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm6.5-.25A.75.75 0 0 1 8 4.75v5.5a.75.75 0 0 1-1.5 0v-5.5Zm.75-2.75a.75.75 0 0 0-1.5 0v.01a.75.75 0 0 0 1.5 0Z"/>
           </svg>
@@ -271,15 +85,12 @@ function filterProjects(projects) {
 }
 
 /**
- * Sort projects: featured first, then by stars, then by updated date
+ * Sort projects by updatedAt descending (recency only)
  */
 function sortProjects(projects) {
-  return [...projects].sort((a, b) => {
-    if (a.featured && !b.featured) return -1;
-    if (!a.featured && b.featured) return 1;
-    if (b.stars !== a.stars) return b.stars - a.stars;
-    return new Date(b.updatedAt) - new Date(a.updatedAt);
-  });
+  return [...projects].sort((a, b) =>
+    new Date(b.updatedAt) - new Date(a.updatedAt)
+  );
 }
 
 /**
@@ -310,6 +121,13 @@ function renderProjects(projects) {
   }
 
   if (allProjects.length === 0) {
+    container.style.display = 'none';
+    if (emptyContainer) {
+      emptyContainer.style.display = 'block';
+    }
+    if (errorContainer) {
+      errorContainer.style.display = 'none';
+    }
     return;
   }
 
@@ -322,13 +140,9 @@ function renderProjects(projects) {
   }
 
   const sortedProjects = sortProjects(projects);
-  const cache = readCache();
   container.innerHTML = sortedProjects
-    .map((repo, index) => renderProjectCard(repo, index, resolveDate(repo, cache)))
+    .map((repo, index) => renderProjectCard(repo, index))
     .join('');
-
-  // Store for later refresh
-  currentRenderedProjects = sortedProjects;
 }
 
 /**
@@ -459,8 +273,15 @@ async function initProjects() {
   if (!container) return;
 
   try {
-    const data = await fetchJSON('data/projects.json');
-    allProjects = data.projects || [];
+    // Background refresh handler: update state, rebuild chips, re-apply filters
+    const onRefresh = (freshRepos) => {
+      allProjects = freshRepos;
+      updateFilterChips(allProjects);
+      renderProjects(filterProjects(allProjects));
+    };
+
+    const repos = await getProjects({ onRefresh });
+    allProjects = repos;
     renderProjects(allProjects);
 
     // Initialize filter chips + single delegated listener.
@@ -471,9 +292,6 @@ async function initProjects() {
 
     // Initialize search
     attachSearchHandler();
-
-    // Refresh dates from GitHub API (non-blocking)
-    refreshRepoDates();
 
   } catch (error) {
     console.error('Failed to load projects:', error);
